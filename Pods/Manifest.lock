@@ -1,0 +1,140 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - AliyunOSSiOS (2.1.4)
+  - Aspects (1.4.1)
+  - Bugly (2.5.2)
+  - DZNEmptyDataSet (1.8.1)
+  - EBBannerView (1.1.2)
+  - FBSDKCoreKit (6.0.0):
+    - FBSDKCoreKit/Basics (= 6.0.0)
+    - FBSDKCoreKit/Core (= 6.0.0)
+  - FBSDKCoreKit/Basics (6.0.0)
+  - FBSDKCoreKit/Core (6.0.0):
+    - FBSDKCoreKit/Basics
+  - FBSDKLoginKit (6.0.0):
+    - FBSDKLoginKit/Login (= 6.0.0)
+  - FBSDKLoginKit/Login (6.0.0):
+    - FBSDKCoreKit (~> 6.0.0)
+  - IQKeyboardManager (6.5.4)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.1.0)
+  - MJExtension (3.2.1)
+  - MJRefresh (3.2.3)
+  - Realm (4.3.2):
+    - Realm/Headers (= 4.3.2)
+  - Realm/Headers (4.3.2)
+  - RMStore (0.7.1):
+    - RMStore/Core (= 0.7.1)
+  - RMStore/Core (0.7.1)
+  - RongCloudIM/IMKit (2.10.3):
+    - RongCloudIM/IMLib
+  - RongCloudIM/IMLib (2.10.3)
+  - SAMKeychain (1.5.3)
+  - SDCycleScrollView (1.80):
+    - SDWebImage (>= 5.0.0)
+  - SDWebImage (5.0.6):
+    - SDWebImage/Core (= 5.0.6)
+  - SDWebImage/Core (5.0.6)
+  - TZImagePickerController (3.2.8)
+  - "UITextView+Placeholder (1.4.0)"
+  - UMCAnalytics (6.0.5):
+    - UMCCommon
+  - UMCCommon (2.1.1)
+  - YYCache (1.0.4)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.2.1)
+  - AliyunOSSiOS (~> 2.1.4)
+  - Aspects (~> 1.4.1)
+  - Bugly (~> 2.5.2)
+  - DZNEmptyDataSet
+  - EBBannerView (~> 1.1.2)
+  - FBSDKLoginKit (~> 6.0.0)
+  - IQKeyboardManager (~> 6.5.4)
+  - Masonry (~> 1.1.0)
+  - MBProgressHUD (~> 1.1.0)
+  - MJExtension (~> 3.2.1)
+  - MJRefresh (~> 3.2.3)
+  - Realm
+  - RMStore (~> 0.7.1)
+  - RongCloudIM/IMKit (~> 2.10.3)
+  - RongCloudIM/IMLib (~> 2.10.3)
+  - SAMKeychain
+  - SDCycleScrollView (>= 1.80)
+  - SDWebImage (~> 5.0.0)
+  - TZImagePickerController (~> 3.2.8)
+  - "UITextView+Placeholder"
+  - UMCAnalytics
+  - UMCCommon
+  - YYCache (~> 1.0.4)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - AliyunOSSiOS
+    - Aspects
+    - Bugly
+    - DZNEmptyDataSet
+    - EBBannerView
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - IQKeyboardManager
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - MJRefresh
+    - Realm
+    - RMStore
+    - RongCloudIM
+    - SAMKeychain
+    - SDCycleScrollView
+    - SDWebImage
+    - TZImagePickerController
+    - "UITextView+Placeholder"
+    - UMCAnalytics
+    - UMCCommon
+    - YYCache
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  AliyunOSSiOS: eb132e38f27161603f82975d55ac01054a6b37be
+  Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
+  Bugly: dbac48b55ad469a97cc4321045cd50df8f63d44f
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  EBBannerView: 268002f8d9d3e979cb8649cbfefd0da5ddef72b3
+  FBSDKCoreKit: fe738b172590e622c86735b45e20d196848b54df
+  FBSDKLoginKit: fa57df1b967fe0e147b25bede6ea4e9cdf4d64be
+  IQKeyboardManager: 72b359cd7e777e3a984cedbe05f8da45320cbb63
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MJExtension: 635f2c663dcb1bf76fa4b715b2570a5710aec545
+  MJRefresh: 2b1214a2dc8f4df4c5dcb028ea2ad4e245425fb7
+  Realm: 5e92902e2875dff4bb0fd02f67bb737c3d5db2bc
+  RMStore: 64ba13a9c040e3b7572765d169f77175cd3243e5
+  RongCloudIM: ba780b70304ccef99efd324489a4c0574c65cd6f
+  SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
+  SDCycleScrollView: b3c9a5ed840c771c4938978174c7c9d9feefeb96
+  SDWebImage: 920f1a2ff1ca8296ad34f6e0510a1ef1d70ac965
+  TZImagePickerController: 4b0a5d3abe6351b6c9ec52c7be0fa9a5bbca23f6
+  "UITextView+Placeholder": d7b0c400921f66523f3a85d74f774512e14f6502
+  UMCAnalytics: 045be2cd1ec05aa95ad62405a850757f932e2d59
+  UMCCommon: 971f324a5a99c9d662ae040a815e7e3d7ef8b2a8
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+
+PODFILE CHECKSUM: fe7394ebe290ec1d471496f8580c6d3404831f68
+
+COCOAPODS: 1.7.4

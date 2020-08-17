@@ -1,0 +1,25 @@
+/* 
+  InfoPlis.strings
+  Project
+
+  Created by XuWen on 2020/7/25.
+  Copyright © 2020 xuwen. All rights reserved.
+*/
+
+/*
+CFBundleDisplayName = "Deluxe";
+NSPhotoLibraryUsageDescription = "We will access your photos to upload a cover of you.";
+NSContactsUsageDescription = "When selecting contacts, we will access your contacts.";
+NSCameraUsageDescription = "We will access your camera  to upload a cover of you.";
+NSMicrophoneUsageDescription = "We will access your mcrophone to start a video call.";
+NSLocationWhenInUseUsageDescription = "Your location will be used for friends recommendation.";
+NSPhotoLibraryAddUsageDescription = "We will access your album when you upload photos";
+*/
+CFBundleDisplayName = "泡泡交友";
+NSPhotoLibraryUsageDescription = "我们需要访问您的相册，选择头像进行上传";
+NSContactsUsageDescription = "我们需要访问您的通讯录";
+NSCameraUsageDescription = "我们需要访问您的相机，拍摄头像进行上传";
+NSMicrophoneUsageDescription = "语音电话开启前,需要开启话筒.";
+NSLocationWhenInUseUsageDescription = "开启定位权限，为您精准推荐周围的朋友";
+NSPhotoLibraryAddUsageDescription = "开启相册编辑权限，为您保存图片";
+

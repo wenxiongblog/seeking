@@ -1,0 +1,252 @@
+/*
+  Localizable.strings
+  Project
+    
+  Created by XuWen on 2020/7/25.
+  Copyright © 2020 xuwen. All rights reserved.
+*/
+
+
+//补充
+"Secrete" = "Secrete";
+"No data" = "No data";
+"Complete profile" = "Complete profile";
+"Skip" = "Skip";
+"NEXT" = "NEXT";
+"Back" = "Back";
+"Your profile photos look nice!" = "Your profile photos look nice!";
+"Go to Finder and show it to new people" = "Go to Finder and show it to new people";
+"Meet new people" = "Meet new people";
+"Terms of Use" = "Terms of Use";
+"Privacy Policy" = "Privacy Policy";
+"Send" = "Send";
+"No notifications, yet." = "No notifications, yet.";
+"No messages in your inbox.\nStart chatting with people around you." = "No messages in your inbox.\nStart chatting with people around you.";
+"Edit" = "Edit";
+"More than 3 photos" = "ore than 3 photos";
+"Profile progress" = "Profile progress";
+"Current" = "Current";
+"Prefect the profile" = "Prefect the profile";
+"Upload photos" = "Upload photos";
+"Privilege of view" = "rivilege of view";
+"Restore" = "Restore";
+"Get more membership" = "Get more membership";
+"Know more about VIP membership" = "Know more about VIP membership";
+"Allow the push notification and check messages in time." = "Allow the push notification and check messages in time.";
+"Open notification when %@ answers" = "Open notification when %@ answers";
+"ENABLE" = "ENABLE";
+"Update" = "Update";
+"I‘m a" = "I‘m a";
+"Send messages to get more attention" = "Send messages to get more attention";
+"Send messages to get attention     " = "Send messages to get attention     ";
+"Waiting for" = "Waiting for";
+"Loading..." = "Loading...";
+"Say ”Hi”" = "Say ”Hi”";
+"Select the number of people\nyou want to greet" = "Select the number of people\nyou want to greet";
+"Message sent" = "Message sent";
+
+//COMMON
+"Camera can not be use!" = "Camera can not be use!";
+"Please set" = "Please set";
+"Set" = "Set";
+"Please choose" = "Please choose";
+"Take photo" = "Take photo";
+"Photo album" = "Photo album";
+"Cancel" = "Cancel";
+
+"Uploading" = "Uploading";
+"Clear!" = "Clear!";
+"Register failed" = "Register failed";
+"Email has been registered" = "Email has been registered";
+
+//相册
+"Upload your profile photo" = "Upload your profile photo";
+"Please keep your profile photo clearly visible, no nudes, blurred and fake photos allowed." = "Please keep your profile photo clearly visible, no nudes, blurred and fake photos allowed.";
+"UPLOAD PHOTO" = "UPLOAD PHOTO";
+"Picture time!\nChoose your photo" = "Picture time!\nChoose your photo";
+"Good! Nice photo" = "Good! Nice photo";
+
+
+//注册登录
+"LOG IN" = "LOG IN";
+"Sign up with Email" = "Sign up with Email";
+"Sign up" = "Sign up";
+"FACEBOOK" = "FACEBOOK";
+"Log in" = "Log in";
+"Email Addredd" = "Email Addredd";
+"Password: 6~20 characters" = "Password: 6~20 characters";
+"CONTINUE" = "CONTINUE";
+
+"By continuing you agree with" = "By continuing you agree with";
+"Terms of service" = "Terms of service";
+"Privacy agreement" = "Privacy agreement";
+"Email Address" = "Email Address";
+//中文的用户说明
+
+"Your name" = "Your name";
+"Next" = "Next";
+"Your age" = "Your age";
+"THIS IS MY AGE" = "THIS IS MY AGE";
+"Your height" = "Your height";
+"THIS IS MY HEIGHT" = "THIS IS MY HEIGHT";
+
+"You'll be notified about new match, messages and etc" = "You'll be notified about new match, messages and etc";
+"You can edit your notification preferences later in the settings" = "You can edit your notification preferences later in the settings";
+"ALLOW NOTIFY" = "ALLOW NOTIFY";
+"NOT NOW" = "NOT NOW";
+
+"Access your location to find people nearby" = "Access your location to find people nearby";
+"You location will be used to smart matching. We will show you people nearby" = "You location will be used to smart matching. We will show you people nearby";
+"ALLOW LOCATION" = "ALLOW LOCATION";
+"Location..." = "Location...";
+
+//首页
+"Search" = "Search";
+"Elite men" = "Elite men";
+"Cute girls" = "Cute girls";
+"Perfect your profile" = "Perfect your profile";
+"Filter" = "Filter";
+"SHOW ME" = "SHOW ME";
+"Both" = "Both";
+"Guys" = "Guys";
+"Girls" = "Girls";
+"AGE" = "AGE";
+"SEARCH REDIUS" = "SEARCH REDIUS";
+"ALL" = "ALL";
+
+"Block or Report User" = "Block or Report User";
+"Report" = "Report";
+"Block User" = "Block User";
+"Cancel" = "Cancel";
+
+
+//MEssage
+"Message" = "消息";
+"System messages" = "系统消息";
+//系统消息发送
+
+"Notifications" = "Notifications";
+"Likes Me" = "Likes Me";
+"Viewed Me" = "Viewed Me";
+"I Liked" = "I Liked";
+
+"No one liked you" = "No one liked you";
+"Upload more photos and information to make\nyou attractive Or use filter to search" = "Upload more photos and information to make\nyou attractive Or use filter to search";
+"Upload more profile photos and complete personal\ninformation to make you more attractive" = "Upload more profile photos and complete personal\ninformation to make you more attractive";
+"You didn’t like anyone" = "You didn’t like anyone";
+"Go to users page and like someone" = "Go to users page and like someone";
+
+
+//Mine
+"Profile" = "Profile";
+"Progress:" = "Progress:";
+"Incognito mode" = "Incognito mode";
+"Only people you message or like\nwill be able to see you" = "Only people you message or like\nwill be able to see you";
+"My activities" = "My activities";
+"My features" = "My features";
+"Feedback" = "Feedback";
+"Settings" = "Settings";
+
+"Delete Account" = "Delete Account";
+"Logout" = "Logout";
+"Are you sure to Delete account" = "Are you sure to Delete account";
+"Are you sure you want to Logout?" = "Are you sure you want to Logout?";
+
+
+//个人信息
+"Edit Profile" = "Edit Profile";
+"Username" = "Username";
+"About me" = "About me";
+"Basic information" = "Basic information";
+"Looking for" = "Looking for";
+"Target age" = "Target age";
+"Interest in" = "Interest in";
+"Education" = "Education";
+"Occupation" = "Occupation";
+"Kids" = "Kids";
+"Pets" = "Pets";
+"Religion" = "Religion";
+"Body type" = "Body type";
+"Alcohol" = "Alcohol";
+"Smoking" = "Smoking";
+"Diet" = "Diet";
+
+"Please choose" = "Please choose";
+"Please input" = "Please input";
+"Done" = "Done";
+
+"Height" = "Height";
+"Weight" = "Weight";
+"Relationship" = "Relationship";
+
+"Party" = "Party";
+"Sports" = "Sports";
+"Traveling" = "Traveling";
+"Chat" = "Chat";
+
+//1
+"Tell us a little about yourself" = "Tell us a little about yourself";
+"For example: I play football and golf,love alternative rock and night clubs..." = "For example: I play football and golf,love alternative rock and night clubs...";
+
+//2
+"What school you study at?" = "What school you study at?";
+"For example: University of Michigan" = "For example: University of Michigan";
+//3
+"What do you do?" = "What do you do?";
+"For example:Teacher, doctor, carpenter, etc." = "For example:Teacher, doctor, carpenter, etc.";
+//4
+"What are you looking for?" = "What are you looking for?";
+"Long-term relationship" = "Long-term relationship";
+"Short-term relationship" = "Short-term relationship";
+"New friends" = "New friends";
+"Short-term" = "Short-term";
+"Long-term" = "Long-term";
+"Friends" = "Friends";
+//5
+"Do you have kids?" = "Do you have kids?";
+"I have no kids" = "I have no kids";
+"I don't want kids" = "I don't want kids";
+"I already have kids" = "I already have kids";
+"Not ready for kids" = "Not ready for kids";
+"Grown up kids" = "Grown up kids";
+"I want kids" = "I want kids";
+//6
+"Do you have pets?" = "Do you have pets?";
+"No" = "No";
+"Cats" = "Cats";
+"Dogs" = "Dogs";
+"Exotic" = "Exotic";
+"Other" = "Other";
+//7
+"What is your belief" = "What is your belief";
+"For example: Christianity, Islam,Nonreligious, Hinduism, Buddhism,etc." = "For example: Christianity, Islam,Nonreligious, Hinduism, Buddhism,etc.";
+//8
+"What is your body type?" = "What is your body type?";
+"Average" = "Average";
+"Fit" = "Fit";
+"Curvy" = "Curvy";
+"Thin" = "Thin";
+"Overweight" = "Overweight";
+"Full-figured" = "ull-figured";
+"A little extra" = "A little extra";
+"Not specified" = "Not specified";
+//9
+"Drinking?" = "Drinking?";
+"Never" = "Never";
+"Often" = "Often";
+"Socially" = "Socially";
+"Now and then" = "Now and then";
+//10
+"Smoking?" = "Smoking?";
+"Never" = "Never";
+"Often" = "Often";
+"Socially" = "Socially";
+"Now and then" = "Now and then";
+//11
+"Do you follow a diet?" = "Do you follow a diet?";
+"Omnivore" = "Omnivore";
+"Vegan" = "Vegan";
+"Kosher" = "Kosher";
+"Halal" = "Halal";
+"No diet" = "No diet";
+

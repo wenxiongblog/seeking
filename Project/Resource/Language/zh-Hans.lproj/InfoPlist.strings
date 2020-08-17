@@ -1,0 +1,15 @@
+/* 
+  InfoPlis.strings
+  Project
+
+  Created by XuWen on 2020/7/25.
+  Copyright © 2020 xuwen. All rights reserved.
+*/
+
+CFBundleDisplayName = "泡泡交友";
+NSPhotoLibraryUsageDescription = "我们需要访问您的相册，选择头像进行上传";
+NSContactsUsageDescription = "我们需要访问您的通讯录";
+NSCameraUsageDescription = "我们需要访问您的相机，拍摄头像进行上传";
+NSMicrophoneUsageDescription = "语音电话开启前,需要开启话筒.";
+NSLocationWhenInUseUsageDescription = "开启定位权限，为您精准推荐周围的朋友";
+NSPhotoLibraryAddUsageDescription = "开启相册编辑权限，为您保存图片";

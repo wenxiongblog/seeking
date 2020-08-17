@@ -1,0 +1,61 @@
+//
+//  PrefixHeader.pch
+//  Project
+//
+//  Created by XuWen on 2020/1/7.
+//  Copyright © 2020 xuwen. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+/**SDWebImage*/
+#import <SDWebImage/SDWebImage.h>
+/**融云*/
+#import <RongIMKit/RongIMKit.h>
+/* 接口 */
+#import "SenLin_Dating_URL.h"
+/** 模型*/
+#import "LSModel.h"
+/*MJExtension**/
+#import <MJExtension/MJExtension.h>
+/* 常用的宏定义 */
+#import "MacroDefine.h"
+/* 上拉加载 */
+#import "XXRefreshFooter.h"
+/* 自定义导航控制器 */
+#import "LSBaseNavigationController.h"
+/* 自动布局 */
+#import <Masonry/Masonry.h>
+/* 全局弹框提示 */
+#import "AlertView.h"
+/* 页面自定义跳转 */
+#import "UIViewController+XXTransition.h"
+/* 分类头文件 */
+#import "Category.h"
+/* 日志工具类 */
+#import "XXLog.h"
+/* 常量定义 */
+#import "Const.h"
+/* 全局跳转类 */
+#import "JumpUtils.h"
+/* 网络请求分类 */
+#import "NSObject+Networking.h"
+/* App全局代理类 */
+#import "AppDelegate.h"
+/* 基础Nav*/
+#import "LSBaseNavigationController.h"
+/* 全局图片选择工具类 */
+#import "ImagePicker.h"
+
+/***/
+#import "Const.h"
+
+
+/*用户*/
+#import "SEEKING_UserModel.h"
+
+
+#endif /* PrefixHeader_pch */

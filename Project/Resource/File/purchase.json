@@ -1,0 +1,25 @@
+{
+    "data": [
+        {
+            "productIdentifier":"paopao_30_vip",
+            "localizedTitle":"30 days VIP",
+            "localizedDescription":"purchase 30 days VIP",
+            "price":"12.00",
+            "dayCount":"30",
+        },
+        {
+            "productIdentifier":"paopao_07_vip",
+            "localizedTitle":"7 days VIP",
+            "localizedDescription":"purchase 7 days VIP",
+            "price":"18.00",
+            "dayCount":"7",
+        },
+        {
+            "productIdentifier":"paopao_90_vip",
+            "localizedTitle":"90 days VIP",
+            "localizedDescription":"purchase 90 days VIP",
+            "price":"40.00",
+            "dayCount":"90",
+        },
+    ]
+}

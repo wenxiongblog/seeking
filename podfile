@@ -1,0 +1,80 @@
+# Uncomment the next line to define a global platform for your project
+
+platform :ios, '10.0'
+use_frameworks!
+
+target 'Project' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+  #自动布局
+  pod 'Masonry','~> 1.1.0'
+  
+  #下拉刷新
+  pod 'MJRefresh','~> 3.2.3'
+  
+  #常用类扩展
+  pod 'MJExtension','~> 3.2.1'
+  
+  #键盘管理工具
+  pod 'IQKeyboardManager','~> 6.5.4'
+  
+  #提示控件
+  pod 'MBProgressHUD', '~> 1.1.0'
+  
+  pod 'SDWebImage', '~> 5.0.0'
+  
+  #网络请求
+  pod 'AFNetworking','~>3.2.1'
+  
+  #缓存框架
+  pod 'YYCache','~> 1.0.4'
+  
+  # 图片选择
+  pod 'TZImagePickerController','~> 3.2.8'
+  
+  # BUG收集
+  pod 'Bugly','~> 2.5.2'
+  
+  #阿里oss照片存储
+  pod 'AliyunOSSiOS', '~> 2.1.4'
+  
+  #轮播图
+  pod 'SDCycleScrollView','>= 1.80'
+
+  #播放视频
+  #pod 'KSYMediaPlayer_iOS', :git => 'https://github.com/ksvc/KSYMediaPlayer_iOS.git'
+  
+  #友盟统计
+  pod 'UMCCommon'
+  pod 'UMCAnalytics'
+  
+  #融云
+  pod 'RongCloudIM/IMLib','~> 2.10.3'
+  pod 'RongCloudIM/IMKit','~> 2.10.3'
+  
+  #前台消息弹窗
+  pod 'EBBannerView','~>1.1.2'
+  
+  # facebook 登录
+  pod 'FBSDKLoginKit','~>6.0.0'
+  
+  # 内购
+  pod 'RMStore','~>0.7.1'
+  
+  # 数据为空default界面
+  pod 'DZNEmptyDataSet'
+  
+  # 和统计配合使用
+  pod 'Aspects', '~> 1.4.1'
+
+  #购买记录，写入
+  pod 'SAMKeychain'
+  
+  #数据库
+  pod 'Realm'
+  
+  # UItextView + Placeholder
+  pod 'UITextView+Placeholder'
+  
+  
+end

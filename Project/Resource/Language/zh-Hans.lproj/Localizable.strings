@@ -1,0 +1,376 @@
+/*
+  Localizable.strings
+  Project
+    
+  Created by XuWen on 2020/7/25.
+  Copyright © 2020 xuwen. All rights reserved.
+*/
+
+//补充
+"Secrete" = "保密";
+"No data" = "没有数据";
+"Complete profile" = "完善信息";
+"Skip" = "跳过";
+"NEXT" = "下一步";
+"Back" = "返回";
+"Your profile photos look nice!" = "恭喜您完成信息填写";
+"Go to Finder and show it to new people" = "快去看看新的朋友吧";
+"Meet new people" = "看看新朋友";
+"Terms of Use" = "用户协议";
+"Privacy Policy" = "隐私协议";
+"Send" = "发送";
+"No notifications, yet." = "没有通知";
+"No messages in your inbox.\nStart chatting with people around you." = "当前没有消息，去聊聊天试试";
+"Edit" = "编辑";
+"More than 3 photos" = "至少三张照片";
+"Profile progress" = "资料完善进度";
+"Current" = "当前";
+"Prefect the profile" = "完善资料";
+"Upload photos" = "上传照片";
+"Privilege of view" = "补充信息";
+"Restore" = "恢复内购";
+"Get more membership" = "获取会员";
+"Know more about VIP membership" = "了解更多会员详情";
+"Allow the push notification and check messages in time." = "开启消息推送，及时接受最新消息";
+"Open notification when %@ answers" = "开启推送，%回复时您将被提醒";
+"ENABLE" = "开启";
+"Update" = "更新";
+"I‘m a" = "我的性别";
+"Send messages to get more attention" = "打个招呼获取更多关注";
+"Send messages to get attention     " = "打个招呼获取更多关注";
+"Send messages to get more attention     " = "打个招呼获取更多关注";
+"Waiting for" = "请等待";
+"Loading..." = "加载中...";
+"Loading" = "加载中";
+"Say ”Hi”" = "打招呼";
+"Select the number of people\nyou want to greet" = "请选择打招呼的人数";
+"Message sent" = "消息已发送";
+"For your account safety, the deletion function should be used after 72 hours. Please wait for 72 hours." = "为了您的账户安全，删除功能需要在账号注册72小时候才可使用";
+"Welcome to\n Deluxe" = "欢迎来到\n泡泡交友";
+"Meet friends from all over the world" = "认识世界各地的朋友";
+"%ld users like you" = "%ld个人喜欢你";
+"%ld users viewed you" = "%ld个人看过你";
+"View now" = "立即查看";
+"Purchase Success" = "购买成功";
+"Purchase Failed" = "购买失败";
+"DAYS" = "天";
+"Matches" = "匹配";
+"SAVE 70%" = "优惠70%";
+"SAVE 80%" = "优惠80%";
+"POPULAR" = "用户最爱";
+"No messages, yet." = "暂无消息";
+//COMMON
+"Camera can not be use!" = "没有相机权限";
+"Please set" = "请设置";
+"Set" = "设置";
+"Please choose" = "请选择";
+"Take photo" = "拍照";
+"Photo album" = "相册";
+"Cancel" = "取消";
+"No More Users" = "没有更多了";
+"Please view tomorrow." = "明天再来看看吧";
+
+"Uploading" = "上传中...";
+"Clear!" = "我知道了";
+"Register failed" = "注册失败";
+"Email has been registered" = "邮箱已经被注册了";
+
+//相册
+"Upload your profile photo" = "上传您的头像";
+"Please keep your profile photo clearly visible, no nudes, blurred and fake photos allowed." = "个人资料照片必须清晰可见，禁止裸露，模糊和假照片";
+"UPLOAD PHOTO" = "上传照片";
+"Picture time!\nChoose your photo" = "请上传您的照片";
+"Good! Nice photo" = "很好，照片没问题";
+
+
+//注册登录
+"LOG IN" = "邮箱登录";
+"Sign up with Email" = "邮箱注册";
+"Sign up" = "注册";
+"FACEBOOK" = "FACEBOOK";
+"Log in" = "登录";
+"Email Addredd" = "邮箱地址";
+"Password: 6~20 characters" = "密码必须是6~20个字符";
+"CONTINUE" = "继续";
+
+"By continuing you agree with" = "继续下一步代表您同意";
+"Terms of service" = "用户协议";
+"Privacy agreement" = "隐私协议";
+"Email Address" = "请输入邮箱";
+//中文的用户说明
+
+"Your name" = "您的昵称";
+"Next" = "下一步";
+"Your age" = "您的年龄";
+"THIS IS MY AGE" = "这是我的年龄";
+"Your height" = "您的身高";
+"THIS IS MY HEIGHT" = "这是我的身高";
+
+"You'll be notified about new match, messages and etc" = "有新的消息、匹配或者其他信息的时候我们将通知您";
+"You can edit your notification preferences later in the settings" = "您可以在设置中启动或关闭通知";
+"ALLOW NOTIFY" = "允许通知";
+"NOT NOW" = "暂不需要";
+
+"Access your location to find people nearby" = "开启定位可以发现周围的用户";
+"You location will be used to smart matching. We will show you people nearby" = "开启定位后，您就可以发现您周围的朋友啦！";
+"ALLOW LOCATION" = "允许定位";
+"Location..." = "定位中，请等待...";
+
+//首页
+"Search" = "首页";
+"Elite men" = "优质男性";
+"Cute girls" = "优质女性";
+"Perfect your profile" = "完善您的信息就可以查看了";
+"Filter" = "筛选";
+"SHOW ME" = "性别";
+"Both" = "都展示";
+"Guys" = "男性";
+"Girls" = "女性";
+"AGE" = "年龄";
+"SEARCH REDIUS" = "搜索范围";
+"ALL" = "不限";
+
+"Block or Report User" = "举报或拉黑";
+"Report" = "举报";
+"Block User" = "拉黑";
+"Cancel" = "取消";
+
+
+//MEssage
+"Message" = "消息";
+"System messages" = "系统消息";
+//系统消息发送
+
+"Notifications" = "通知";
+"Likes Me" = "喜欢我的";
+"Viewed Me" = "看过我的";
+"I Liked" = "我喜欢的";
+
+"No one liked you" = "还没有人喜欢你哦";
+"Upload more photos and information to make\nyou attractive Or use filter to search" = "照片质量越高，信息越完善\n获得喜欢的几率就更大";
+"Upload more profile photos and complete personal\ninformation to make you more attractive" = "完善您的照片和个人信息\n这样就会有更多的人关注您！";
+"You didn’t like anyone" = "你还没有喜欢过任何人";
+"Go to users page and like someone" = "去给别人一个喜欢吧";
+"vip1" = "c_vip1";
+"vip2" = "c_vip2";
+"vip3" = "c_vip3";
+"vip4" = "c_vip4";
+"vip5" = "c_vip5";
+
+//Mine
+"Profile" = "个人信息";
+"Progress:" = "完善程度:";
+"Incognito mode" = "隐藏模式";
+"Only people you message or like\nwill be able to see you" = "开启后，只有你发过信息或者喜欢的用户\n才能看到到你";
+"My activities" = "我的收藏";
+"My features" = "我的特权";
+"Feedback" = "用户反馈";
+"Settings" = "设置";
+
+"Delete Account" = "删除账号";
+"Logout" = "退出登录";
+"Are you sure to Delete account" = "您确定要删除账号吗？";
+"Are you sure you want to Logout?" = "您确定要退出登录吗？";
+
+
+//个人信息
+"Edit Profile" = "编辑";
+"Username" = "用户昵称";
+"About me" = "基本介绍";
+"Basic information" = "基础信息";
+"Looking for" = "交友目的";
+"Target age" = "年龄范围";
+"Interest in" = "爱好";
+"Education" = "毕业院校";
+"Occupation" = "职位";
+"Kids" = "子女情况";
+"Pets" = "饲养宠物";
+"Religion" = "情感状态";
+"Body type" = "身材";
+"Alcohol" = "酒品";
+"Smoking" = "吸烟状况";
+"Diet" = "餐饮习惯";
+
+"Please choose" = "请选择";
+"Please input" = "请输入";
+"Done" = "完成";
+
+"Height" = "身高";
+"Weight" = "体重";
+"Relationship" = "情感状态";
+
+"Party" = "聚会";
+"Sports" = "运动";
+"Traveling" = "旅行";
+"Chat" = "聊天";
+
+//1
+"Tell us a little about yourself" = "请简单介绍下自己";
+"For example: I play football and golf,love alternative rock and night clubs..." = "例如：我喜欢踢足球，喜欢蛋黄的长裙搭配蓬松的头发等";
+
+//2
+"What school you study at?" = "你的毕业院校是？";
+"For example: University of Michigan" = "例如：清华大学";
+//3
+"What do you do?" = "你现在的职业是？";
+"For example:Teacher, doctor, carpenter, etc." = "例如：老师、医生或者无业等";
+//4
+"What are you looking for?" = "你的交友目的是什么呢？";
+"Long-term relationship" = "长期关系";
+"Short-term relationship" = "短期关系";
+"New friends" = "新朋友";
+"Short-term" = "短期关系";
+"Long-term" = "长期关系";
+"Friends" = "新朋友";
+//5
+"Do you have kids?" = "您的子女状况？";
+"I have no kids" = "我没有子女";
+"I don't want kids" = "我不想要子女";
+"I already have kids" = "我已经有子女";
+"Not ready for kids" = "没有准备要小孩";
+"Grown up kids" = "孩子已经成年";
+"I want kids" = "准备要小孩";
+//6
+"Do you have pets?" = "您饲养什么宠物？";
+"No" = "没有宠物";
+"Cats" = "养猫";
+"Dogs" = "养狗";
+"Exotic" = "宠物很特别哦";
+"Other" = "其他宠物";
+//7
+"What is your belief" = "您的信仰是什么？";
+"For example: Christianity, Islam,Nonreligious, Hinduism, Buddhism,etc." = "例如：基督教、伊斯兰教、非宗教、印度教、佛教等";
+//8
+"What is your body type?" = "您的身材怎么样？";
+"Average" = "身材匀称";
+"Fit" = "健康身材";
+"Curvy" = "标准S型身材";
+"Thin" = "苗条身材";
+"Overweight" = "身材偏胖";
+"Full-figured" = "身材丰满";
+"A little extra" = "体型微胖";
+"Not specified" = "大众身材";
+//9
+"Drinking?" = "喝酒吗？";
+"Never" = "从不喝酒";
+"Often" = "经常喝酒";
+"Socially" = "必要时喝酒";
+"Now and then" = "偶尔喝酒";
+//10
+"Smoking?" = "吸烟吗？";
+"Never" = "从不吸烟";
+"Often" = "经常吸烟";
+"Socially" = "必要时吸烟";
+"Now and then" = "偶尔吸烟";
+//11
+"Do you follow a diet?" = "您的饮食状况？";
+"Omnivore" = "我是吃货";
+"Vegan" = "素食主义者";
+"Kosher" = "犹太食物";
+"Halal" = "清真食物";
+"No diet" = "不挑食";
+
+
+
+//打招呼的语句哈哈哈哈
+"How are you doing?💖" = "你在干嘛呢？";
+"What's up?" = "最近怎样？";
+"Hi. Long time no see.💗" = "嗨，好久不见。";
+"How about yourself?" = "你好";
+"Today is a great day." = "无聊的一天，聊两句？";
+"Are you making progress?" = "你喜欢狗狗吗？";
+"May I have your name, please?😄" = "你的昵称真好听😄";
+"I've heard so much about you." = "我好像见过你";
+"I hope you're enjoying your staying here." = "祝愿你能享受当前时刻";
+"I'm glad to have met you.❤️" = "非常高兴遇见一个陌生的你";
+"Keep in touch." = "保持联系哦";
+"I had a wonderful time here.😊" = "这是一个美妙的时刻";
+"Nice talking to you." = "和你聊天想必非常好玩";
+"I feel terrible.😭" = "伤心😭";
+"What do you do?" = "你是做什么的呢？";
+"I like reading and listening to music." = "我喜欢看书，听音乐";
+"What's wrong?" = "怎么啦？";
+"What happened?" = "发生什么事了吗？";
+"I hope nothing is wrong." = "但愿一切安好";
+"I know how you feel." = "我能猜出你此刻的心思";
+"I like your style." = "我喜欢你的风格";
+"How do I look?" = "我看起来怎么样？";
+"You look great!😍" = "你看起来棒极了";
+"Are you married or single?" = "你是单身吗？";
+"I've been dying to see you." = "好想见见你";
+"I'm tired of working all day." = "今天太累了";
+"It's a small world." = "世界小得很奇妙啊";
+"May I help you?" = "我能实现你的一个愿望";
+"What a surprise!" = "这是一个惊喜";
+"I need some sleep🍌" = "需要休息下";
+"Take it easy🍌" = "放松一下下";
+"Just relax🍌" = "那个不痛,一身轻松";
+"What a long sleepless night! I thought I was the only sleepless." = "今晚熬夜干点活动";
+"This is my first time to be in the chat room. Will you please join me?" = "第一次使用这app，来一起聊聊";
+"May I join in? I’m easy to get along. " = "可以一起聊聊吗？";
+"Do you have a very special name. I think you must be a unique guy." = "看起来你是一个非常特别的人";
+"Which city do you live in" = "你住在哪个城市？";
+"You are a bucket of awesome" = "你好啊";
+"What was the coolest girl you ever met" = "高冷同志";
+"What 's the grossest food you ever had to eat to be polite?" = "你吃过最难吃的食物是什么";
+"If you were a vegetable, what would you be?" = "如果你是一颗菜，你想做什么菜";
+"Romance or passion?" = "激情和浪漫最想要哪个？";
+"What would you tell your younger self?" = "如果回到从前，你会告诫自己什么？";
+"How's your day?" = "今天怎么样？";
+"Two truths and a lie. Ready, set, go!" = "你讲关于你自己的三件事，两真一假。我来猜";
+"You have free time. What will you do?" = "平常有空的时候，你会做什么呢？";
+"What's your biggest passion?" = "你最感兴趣的事是干什么？";
+"Cats or dogs?" = "你喜欢猫猫还是狗狗？";
+
+
+// 第一句慰问
+"You're like sunshine on a rainy day" = "你是像是冬日里的一抹阳光";
+"Your smile is breathtaking" = "你的笑容很迷人";
+"You look so perfect" = "你看起来不错哟";
+"What's the quickest way to your heart?" = "怎样才能打动你的心";
+"What's the most important thing in your life?" = "你生活中最重要的的事情是什么";
+"What's the most fun date you've ever been on? " = "你还记得你最愉快的那一天吗？";
+"What's the most badass thing you've ever done?" = "你做过最蠢的事事啥？";
+"What would you do with $1 million?" = "如果你有1个亿，你会做什么";
+"What was your craziest life experience?" = "你最疯狂的经历是什么？";
+"What movie always gives you chills?" = "你最喜欢的电影是哪个？";
+"What is your biggest passion?" = "你最感兴趣的事情是什么？";
+"What do you value most in people?" = "周围人中，谁对你来说帮助最大？";
+"What do you usually do when you feel lonely?" = "你在无聊的时候会做些什么呢？";
+"Tell me about your ideal date" = "你理想的生活是什么样的？";
+"Hi! How's your day?" = "今天感觉怎么样？";
+"Hi there! You look great" = "hello,你看起来很酷";
+"Hey, what are you up to today?" = "嘿，你今天在忙什么？";
+"Have you ever been abroad?" = "你去过国外吗？";
+"Do you like mountains or beaches?" = "喜欢逛沙滩还是爬山？";
+"Do you have a sunburn, or are you always this hot?" = "你看起来怪好看的";
+"Do you believe in online dating :)?" = "你相信网恋吗？";
+"Are you from Tennessee? Because you're the only ten I see!" = "不知道你的嗅觉体验如何";
+"All I want for Christmas is you!" = "我最想要的圣诞礼物就是你";
+
+
+
+"detail_xiaoxi" = "c_detail_xiaoxi";
+"dislikes" = "c_dislikes";
+"home_foot_vip" = "c_home_foot_vip";
+"It’s a Match!" = "c_It’s a Match!";
+"likes" = "c_likes";
+"login_addPhoto" = "c_login_addPhoto";
+"man_s" = "c_man_s";
+"man" = "c_man";
+"match_guide_left" = "c_match_guide_left";
+"match_guide_right" = "c_match_guide_right";
+"match_new" = "c_match_new";
+"match_Online" = "c_match_Online";
+"Mine_feature_notVip" = "c_Mine_feature_notVip";
+"Mine_feature_Vip" = "c_Mine_feature_Vip";
+"Mine_UPGRADE" = "c_Mine_UPGRADE";
+"prior" = "c_prior";
+"woman_s" = "c_woman_s";
+"woman" = "c_woman";
+
+"chat_Match" = "c_chat_Match";
+"chat_placeholder" = "c_chat_placeholder";
+"Honey_placeholder" = "c_Honey_placeholder";
+"Honey-place" = "c_Honey-place";
+"macth_Honeyicon" = "c_macth_Honeyicon";
