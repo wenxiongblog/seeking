@@ -17,8 +17,12 @@ extern NSString * _Nullable presentTransitionAnimationModalSink;
 + (void)customTransition;
 
 // 跳转到启动模块
-+ (void)jumpLauncModel;
++ (void)jumpWelcomeModel;
 
+// 跳转到马甲包登录页面
++ (void)jumpVestLoginModel;
+// 跳转到马甲包正式界面
++ (void)jumpVestHomeModel;
 /**
  跳转到主模块
  */

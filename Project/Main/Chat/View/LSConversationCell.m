@@ -25,7 +25,6 @@
 
 @implementation LSConversationCell
 
-
 - (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
@@ -36,9 +35,7 @@
     return self;
 }
 
-
 #pragma mark - baseConfig1
-
 - (void)SEEKING_baseUIConfig
 {
     [self commonTableViewCellConfig];

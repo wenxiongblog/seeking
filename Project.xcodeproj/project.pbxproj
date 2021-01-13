@@ -56,6 +56,9 @@
 		1F269EA423F5AE2200675258 /* LSSignInVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F269EA323F5AE2200675258 /* LSSignInVC.m */; };
 		1F269EA823F6423100675258 /* XWChooseImageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F269EA723F6423000675258 /* XWChooseImageButton.m */; };
 		1F269EAC23F649C400675258 /* SEEKING_UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F269EAB23F649C300675258 /* SEEKING_UserModel.m */; };
+		1F3746FF250C6B0F00C07FC2 /* VESTVIPVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3746FE250C6B0F00C07FC2 /* VESTVIPVC.m */; };
+		1F374707251097D200C07FC2 /* vest_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F374705251097D200C07FC2 /* vest_logo.png */; };
+		1F37470A2510981300C07FC2 /* vest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F3747092510981300C07FC2 /* vest.storyboard */; };
 		1F411672240A931B002406A2 /* LSRongYunHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F411671240A931B002406A2 /* LSRongYunHelper.m */; };
 		1F411676240AB81D002406A2 /* LSDetactFace.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F411675240AB81D002406A2 /* LSDetactFace.m */; };
 		1F411678240AB85D002406A2 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F411677240AB85D002406A2 /* CoreImage.framework */; };
@@ -67,7 +70,6 @@
 		1F46A590249895AA00E12F94 /* LSCuteManVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F46A58F249895AA00E12F94 /* LSCuteManVC.m */; };
 		1F46A5932498992A00E12F94 /* LSCuteManCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F46A5922498992900E12F94 /* LSCuteManCell.m */; };
 		1F46A59F2499131C00E12F94 /* NSObject+LSCommonRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F46A59E2499131C00E12F94 /* NSObject+LSCommonRequest.m */; };
-		1F4EC9FD24C9627100E75A56 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F4EC9FC24C9627100E75A56 /* Storyboard.storyboard */; };
 		1F51892723D7EE4C00BAEA3A /* LSConversationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F51892623D7EE4C00BAEA3A /* LSConversationVC.m */; };
 		1F51892A23D7EF3100BAEA3A /* LSMatchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F51892923D7EF3100BAEA3A /* LSMatchVC.m */; };
 		1F51893623D7F37500BAEA3A /* CCDraggableCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F51892F23D7F37400BAEA3A /* CCDraggableCardView.m */; };
@@ -75,12 +77,27 @@
 		1F51893C23D80C1F00BAEA3A /* LSDraggableCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F51893B23D80C1F00BAEA3A /* LSDraggableCardView.m */; };
 		1F53D38423CC190D0062367F /* LSWelcomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F53D38323CC190D0062367F /* LSWelcomeVC.m */; };
 		1F55D62324D565D1000A0166 /* Terms_China.html in Resources */ = {isa = PBXBuildFile; fileRef = 1F55D62224D565D1000A0166 /* Terms_China.html */; };
-		1F55D62524D56A60000A0166 /* welcome1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F55D62424D56A60000A0166 /* welcome1.storyboard */; };
-		1F55D62724D56B53000A0166 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F55D62624D56B53000A0166 /* bg.png */; };
-		1F55D62924D56B59000A0166 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F55D62824D56B59000A0166 /* icon.png */; };
 		1F58E98F24CBE24000A52C6F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F58E99124CBE24000A52C6F /* InfoPlist.strings */; };
 		1F58E99524CBE4BE00A52C6F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F58E99724CBE4BE00A52C6F /* Localizable.strings */; };
 		1F58E9A324CF4AD000A52C6F /* LSPurchaseNewButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F58E9A224CF4AD000A52C6F /* LSPurchaseNewButton.m */; };
+		1F5C2A2D2501EDD200127F77 /* VESTTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5C2A2C2501EDD200127F77 /* VESTTabBarVC.m */; };
+		1F5C2A302501EDEB00127F77 /* VESTTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5C2A2F2501EDEB00127F77 /* VESTTabBar.m */; };
+		1F5C2A332501EE0400127F77 /* VESTTabButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5C2A322501EE0400127F77 /* VESTTabButton.m */; };
+		1F5C2A39250221C100127F77 /* neiron.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1F5C2A37250221C100127F77 /* neiron.mp4 */; };
+		1F5C2A3A250221C100127F77 /* touxiang.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F5C2A38250221C100127F77 /* touxiang.png */; };
+		1F5C2A55250618FC00127F77 /* VESTSignUpNameVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5C2A54250618FC00127F77 /* VESTSignUpNameVC.m */; };
+		1F5C2A5825061B0100127F77 /* VESTNameInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5C2A5725061B0100127F77 /* VESTNameInputView.m */; };
+		1F5C2A5C25061E3C00127F77 /* VESTUserTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5C2A5B25061E3B00127F77 /* VESTUserTool.m */; };
+		1F5C2A642506329200127F77 /* yuyin1_head.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F5C2A5F2506329200127F77 /* yuyin1_head.png */; };
+		1F5C2A652506329200127F77 /* yuyin1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1F5C2A602506329200127F77 /* yuyin1.mp3 */; };
+		1F5C2A662506329200127F77 /* yuyin2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1F5C2A622506329200127F77 /* yuyin2.mp3 */; };
+		1F5C2A672506329200127F77 /* yuyin2_head.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F5C2A632506329200127F77 /* yuyin2_head.png */; };
+		1F5C2A6A2506357E00127F77 /* yuyin.json in Resources */ = {isa = PBXBuildFile; fileRef = 1F5C2A692506357D00127F77 /* yuyin.json */; };
+		1F5C2A6D250636D800127F77 /* VESTDataTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5C2A6C250636D800127F77 /* VESTDataTool.m */; };
+		1F5C2A71250637A500127F77 /* VESTUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5C2A70250637A500127F77 /* VESTUserModel.m */; };
+		1F5C2AB92509CEC100127F77 /* VESTCreateFinishAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5C2AB82509CEC100127F77 /* VESTCreateFinishAlertView.m */; };
+		1F5C2ABD2509FEEC00127F77 /* VESTSaveMessageTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5C2ABC2509FEEC00127F77 /* VESTSaveMessageTool.m */; };
+		1F5C2ABF250A0DC700127F77 /* shipin.json in Resources */ = {isa = PBXBuildFile; fileRef = 1F5C2ABE250A0DC600127F77 /* shipin.json */; };
 		1F5D2965241107840038E965 /* NSDictionary+LSUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5D2964241107840038E965 /* NSDictionary+LSUtils.m */; };
 		1F5D296824113BEB0038E965 /* LSFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5D296724113BEB0038E965 /* LSFilterViewController.m */; };
 		1F5D296E241208800038E965 /* DoubleSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5D296C2412087F0038E965 /* DoubleSliderView.m */; };
@@ -106,6 +123,18 @@
 		1F69643A23CD98F600906206 /* UIColor+LSConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F69643923CD98F600906206 /* UIColor+LSConst.m */; };
 		1F6DC0502415DCE300D89C5B /* LSChooseAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6DC04F2415DCE300D89C5B /* LSChooseAlertView.m */; };
 		1F6DC0CC2416813200D89C5B /* LSChooseHWeightView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6DC0CB2416813200D89C5B /* LSChooseHWeightView.m */; };
+		1F700F6C24F63414009DCD66 /* VESTChargeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F700F6B24F63414009DCD66 /* VESTChargeVC.m */; };
+		1F700F7224F6378E009DCD66 /* VESTChargeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F700F7124F6378E009DCD66 /* VESTChargeCell.m */; };
+		1F700F7624F63BF5009DCD66 /* VESTLiveVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F700F7524F63BF5009DCD66 /* VESTLiveVC.m */; };
+		1F700F7B24F63F68009DCD66 /* VESTMsgSendView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F700F7A24F63F68009DCD66 /* VESTMsgSendView.m */; };
+		1F700F7E24F646E8009DCD66 /* VESTMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F700F7D24F646E8009DCD66 /* VESTMessageView.m */; };
+		1F700F8224F648D6009DCD66 /* VESTReceiveCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F700F8124F648D6009DCD66 /* VESTReceiveCell.m */; };
+		1F700F8524F648E6009DCD66 /* VESTSendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F700F8424F648E6009DCD66 /* VESTSendCell.m */; };
+		1F700F8924F65365009DCD66 /* VESTMessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F700F8824F65365009DCD66 /* VESTMessageModel.m */; };
+		1F700F9024F65B93009DCD66 /* VESTTwoLiveVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F700F8F24F65B93009DCD66 /* VESTTwoLiveVC.m */; };
+		1F700F9424F680D3009DCD66 /* LSThreeMsgVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F700F9324F680D3009DCD66 /* LSThreeMsgVC.m */; };
+		1F700F9824F68640009DCD66 /* VESTCustomerAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F700F9724F68640009DCD66 /* VESTCustomerAlertView.m */; };
+		1F700FB624F7EF1E009DCD66 /* LSCreateAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F700FB524F7EF1E009DCD66 /* LSCreateAlertView.m */; };
 		1F73A6F324A82D22006E6CEC /* LSABTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F73A6F224A82D22006E6CEC /* LSABTest.m */; };
 		1F77E994244534DE00699C8F /* LSPurchaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F77E993244534DE00699C8F /* LSPurchaseManager.m */; };
 		1F77E997244680FC00699C8F /* LSMatchLikeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F77E996244680FC00699C8F /* LSMatchLikeView.m */; };
@@ -114,6 +143,20 @@
 		1F7ED6652417379000FA3924 /* LSChooseWightView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7ED6642417379000FA3924 /* LSChooseWightView.m */; };
 		1F7ED6772417D06900FA3924 /* LSVIPAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7ED6762417D06900FA3924 /* LSVIPAlertView.m */; };
 		1F7ED67A2417E8E600FA3924 /* LSPurchaseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7ED6792417E8E600FA3924 /* LSPurchaseButton.m */; };
+		1F80B8D124F3F88F00B62A87 /* VESTSignInVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F80B8D024F3F88F00B62A87 /* VESTSignInVC.m */; };
+		1F80B8D424F3F89F00B62A87 /* VESTSignUpVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F80B8D324F3F89F00B62A87 /* VESTSignUpVC.m */; };
+		1F80B8D824F3F9E900B62A87 /* VESTEmailInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F80B8D724F3F9E900B62A87 /* VESTEmailInputView.m */; };
+		1F80B8DB24F3FC8200B62A87 /* VESTPsdInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F80B8DA24F3FC8200B62A87 /* VESTPsdInputView.m */; };
+		1F80B8DE24F4090200B62A87 /* VESTAgeInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F80B8DD24F4090200B62A87 /* VESTAgeInputView.m */; };
+		1F80B8E124F48DF600B62A87 /* VESTOneVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F80B8E024F48DF600B62A87 /* VESTOneVC.m */; };
+		1F80B8E424F48E0400B62A87 /* VESTTwoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F80B8E324F48E0400B62A87 /* VESTTwoVC.m */; };
+		1F80B8E724F48E1200B62A87 /* VESTThreeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F80B8E624F48E1200B62A87 /* VESTThreeVC.m */; };
+		1F80B8EA24F48E1F00B62A87 /* VESTFourVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F80B8E924F48E1F00B62A87 /* VESTFourVC.m */; };
+		1F80B8F124F4956E00B62A87 /* LSOneCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F80B8F024F4956E00B62A87 /* LSOneCell.m */; };
+		1F80B8F524F4A1C900B62A87 /* LSTwoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F80B8F424F4A1C800B62A87 /* LSTwoCell.m */; };
+		1F80B8F924F4BACF00B62A87 /* LSMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F80B8F824F4BACF00B62A87 /* LSMessageCell.m */; };
+		1F80B8FD24F4EC1000B62A87 /* VEStFourCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F80B8FC24F4EC1000B62A87 /* VEStFourCell.m */; };
+		1F80B90024F4EC8800B62A87 /* VESTMineHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F80B8FF24F4EC8800B62A87 /* VESTMineHeadView.m */; };
 		1F88FE59246AEFC500A89B51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F88FE58246AEFC400A89B51 /* Assets.xcassets */; };
 		1F8A79412420C85800B783E0 /* LSBehaviorTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8A79402420C85800B783E0 /* LSBehaviorTool.m */; };
 		1F8CF5CA247FA494003AB229 /* LSPictureScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8CF5C9247FA494003AB229 /* LSPictureScrollView.m */; };
@@ -345,6 +388,10 @@
 		1F269EA723F6423000675258 /* XWChooseImageButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWChooseImageButton.m; sourceTree = "<group>"; };
 		1F269EAA23F649C300675258 /* SEEKING_UserModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SEEKING_UserModel.h; sourceTree = "<group>"; };
 		1F269EAB23F649C300675258 /* SEEKING_UserModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SEEKING_UserModel.m; sourceTree = "<group>"; };
+		1F3746FD250C6B0F00C07FC2 /* VESTVIPVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VESTVIPVC.h; sourceTree = "<group>"; };
+		1F3746FE250C6B0F00C07FC2 /* VESTVIPVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VESTVIPVC.m; sourceTree = "<group>"; };
+		1F374705251097D200C07FC2 /* vest_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vest_logo.png; sourceTree = "<group>"; };
+		1F3747092510981300C07FC2 /* vest.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = vest.storyboard; sourceTree = "<group>"; };
 		1F411670240A931B002406A2 /* LSRongYunHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSRongYunHelper.h; sourceTree = "<group>"; };
 		1F411671240A931B002406A2 /* LSRongYunHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSRongYunHelper.m; sourceTree = "<group>"; };
 		1F411674240AB81D002406A2 /* LSDetactFace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSDetactFace.h; sourceTree = "<group>"; };
@@ -365,7 +412,6 @@
 		1F46A5922498992900E12F94 /* LSCuteManCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSCuteManCell.m; sourceTree = "<group>"; };
 		1F46A59D2499131C00E12F94 /* NSObject+LSCommonRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+LSCommonRequest.h"; sourceTree = "<group>"; };
 		1F46A59E2499131C00E12F94 /* NSObject+LSCommonRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LSCommonRequest.m"; sourceTree = "<group>"; };
-		1F4EC9FC24C9627100E75A56 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		1F51892523D7EE4C00BAEA3A /* LSConversationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSConversationVC.h; sourceTree = "<group>"; };
 		1F51892623D7EE4C00BAEA3A /* LSConversationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSConversationVC.m; sourceTree = "<group>"; };
 		1F51892823D7EF3100BAEA3A /* LSMatchVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSMatchVC.h; sourceTree = "<group>"; };
@@ -380,9 +426,6 @@
 		1F53D38223CC190D0062367F /* LSWelcomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSWelcomeVC.h; sourceTree = "<group>"; };
 		1F53D38323CC190D0062367F /* LSWelcomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSWelcomeVC.m; sourceTree = "<group>"; };
 		1F55D62224D565D1000A0166 /* Terms_China.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Terms_China.html; sourceTree = "<group>"; };
-		1F55D62424D56A60000A0166 /* welcome1.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = welcome1.storyboard; sourceTree = "<group>"; };
-		1F55D62624D56B53000A0166 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
-		1F55D62824D56B59000A0166 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		1F58E98B24CBE1F500A52C6F /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		1F58E99024CBE24000A52C6F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1F58E99224CBE24900A52C6F /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
@@ -390,6 +433,34 @@
 		1F58E99824CBE4C500A52C6F /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		1F58E9A124CF4AD000A52C6F /* LSPurchaseNewButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSPurchaseNewButton.h; sourceTree = "<group>"; };
 		1F58E9A224CF4AD000A52C6F /* LSPurchaseNewButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSPurchaseNewButton.m; sourceTree = "<group>"; };
+		1F5C2A2B2501EDD200127F77 /* VESTTabBarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VESTTabBarVC.h; sourceTree = "<group>"; };
+		1F5C2A2C2501EDD200127F77 /* VESTTabBarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VESTTabBarVC.m; sourceTree = "<group>"; };
+		1F5C2A2E2501EDEB00127F77 /* VESTTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VESTTabBar.h; sourceTree = "<group>"; };
+		1F5C2A2F2501EDEB00127F77 /* VESTTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VESTTabBar.m; sourceTree = "<group>"; };
+		1F5C2A312501EE0400127F77 /* VESTTabButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VESTTabButton.h; sourceTree = "<group>"; };
+		1F5C2A322501EE0400127F77 /* VESTTabButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VESTTabButton.m; sourceTree = "<group>"; };
+		1F5C2A37250221C100127F77 /* neiron.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = neiron.mp4; sourceTree = "<group>"; };
+		1F5C2A38250221C100127F77 /* touxiang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = touxiang.png; sourceTree = "<group>"; };
+		1F5C2A53250618FC00127F77 /* VESTSignUpNameVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VESTSignUpNameVC.h; sourceTree = "<group>"; };
+		1F5C2A54250618FC00127F77 /* VESTSignUpNameVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VESTSignUpNameVC.m; sourceTree = "<group>"; };
+		1F5C2A5625061B0100127F77 /* VESTNameInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VESTNameInputView.h; sourceTree = "<group>"; };
+		1F5C2A5725061B0100127F77 /* VESTNameInputView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VESTNameInputView.m; sourceTree = "<group>"; };
+		1F5C2A5A25061E3B00127F77 /* VESTUserTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VESTUserTool.h; sourceTree = "<group>"; };
+		1F5C2A5B25061E3B00127F77 /* VESTUserTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VESTUserTool.m; sourceTree = "<group>"; };
+		1F5C2A5F2506329200127F77 /* yuyin1_head.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yuyin1_head.png; sourceTree = "<group>"; };
+		1F5C2A602506329200127F77 /* yuyin1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yuyin1.mp3; sourceTree = "<group>"; };
+		1F5C2A622506329200127F77 /* yuyin2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yuyin2.mp3; sourceTree = "<group>"; };
+		1F5C2A632506329200127F77 /* yuyin2_head.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yuyin2_head.png; sourceTree = "<group>"; };
+		1F5C2A692506357D00127F77 /* yuyin.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = yuyin.json; sourceTree = "<group>"; };
+		1F5C2A6B250636D800127F77 /* VESTDataTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VESTDataTool.h; sourceTree = "<group>"; };
+		1F5C2A6C250636D800127F77 /* VESTDataTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VESTDataTool.m; sourceTree = "<group>"; };
+		1F5C2A6F250637A500127F77 /* VESTUserModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VESTUserModel.h; sourceTree = "<group>"; };
+		1F5C2A70250637A500127F77 /* VESTUserModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VESTUserModel.m; sourceTree = "<group>"; };
+		1F5C2AB72509CEC100127F77 /* VESTCreateFinishAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VESTCreateFinishAlertView.h; sourceTree = "<group>"; };
+		1F5C2AB82509CEC100127F77 /* VESTCreateFinishAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VESTCreateFinishAlertView.m; sourceTree = "<group>"; };
+		1F5C2ABB2509FEEC00127F77 /* VESTSaveMessageTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VESTSaveMessageTool.h; sourceTree = "<group>"; };
+		1F5C2ABC2509FEEC00127F77 /* VESTSaveMessageTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VESTSaveMessageTool.m; sourceTree = "<group>"; };
+		1F5C2ABE250A0DC600127F77 /* shipin.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = shipin.json; sourceTree = "<group>"; };
 		1F5D293B240F5E1C0038E965 /* SenLin_Dating_URL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SenLin_Dating_URL.h; sourceTree = "<group>"; };
 		1F5D295D2410F4030038E965 /* Senlin Dating.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Senlin Dating.entitlements"; sourceTree = "<group>"; };
 		1F5D2963241107840038E965 /* NSDictionary+LSUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+LSUtils.h"; sourceTree = "<group>"; };
@@ -443,6 +514,30 @@
 		1F6DC04F2415DCE300D89C5B /* LSChooseAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSChooseAlertView.m; sourceTree = "<group>"; };
 		1F6DC0CA2416813200D89C5B /* LSChooseHWeightView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSChooseHWeightView.h; sourceTree = "<group>"; };
 		1F6DC0CB2416813200D89C5B /* LSChooseHWeightView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSChooseHWeightView.m; sourceTree = "<group>"; };
+		1F700F6A24F63414009DCD66 /* VESTChargeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VESTChargeVC.h; sourceTree = "<group>"; };
+		1F700F6B24F63414009DCD66 /* VESTChargeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VESTChargeVC.m; sourceTree = "<group>"; };
+		1F700F7024F6378E009DCD66 /* VESTChargeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VESTChargeCell.h; sourceTree = "<group>"; };
+		1F700F7124F6378E009DCD66 /* VESTChargeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VESTChargeCell.m; sourceTree = "<group>"; };
+		1F700F7424F63BF5009DCD66 /* VESTLiveVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VESTLiveVC.h; sourceTree = "<group>"; };
+		1F700F7524F63BF5009DCD66 /* VESTLiveVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VESTLiveVC.m; sourceTree = "<group>"; };
+		1F700F7924F63F68009DCD66 /* VESTMsgSendView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VESTMsgSendView.h; sourceTree = "<group>"; };
+		1F700F7A24F63F68009DCD66 /* VESTMsgSendView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VESTMsgSendView.m; sourceTree = "<group>"; };
+		1F700F7C24F646E8009DCD66 /* VESTMessageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VESTMessageView.h; sourceTree = "<group>"; };
+		1F700F7D24F646E8009DCD66 /* VESTMessageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VESTMessageView.m; sourceTree = "<group>"; };
+		1F700F8024F648D6009DCD66 /* VESTReceiveCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VESTReceiveCell.h; sourceTree = "<group>"; };
+		1F700F8124F648D6009DCD66 /* VESTReceiveCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VESTReceiveCell.m; sourceTree = "<group>"; };
+		1F700F8324F648E6009DCD66 /* VESTSendCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VESTSendCell.h; sourceTree = "<group>"; };
+		1F700F8424F648E6009DCD66 /* VESTSendCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VESTSendCell.m; sourceTree = "<group>"; };
+		1F700F8724F65365009DCD66 /* VESTMessageModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VESTMessageModel.h; sourceTree = "<group>"; };
+		1F700F8824F65365009DCD66 /* VESTMessageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VESTMessageModel.m; sourceTree = "<group>"; };
+		1F700F8E24F65B93009DCD66 /* VESTTwoLiveVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VESTTwoLiveVC.h; sourceTree = "<group>"; };
+		1F700F8F24F65B93009DCD66 /* VESTTwoLiveVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VESTTwoLiveVC.m; sourceTree = "<group>"; };
+		1F700F9224F680D3009DCD66 /* LSThreeMsgVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSThreeMsgVC.h; sourceTree = "<group>"; };
+		1F700F9324F680D3009DCD66 /* LSThreeMsgVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSThreeMsgVC.m; sourceTree = "<group>"; };
+		1F700F9624F68640009DCD66 /* VESTCustomerAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VESTCustomerAlertView.h; sourceTree = "<group>"; };
+		1F700F9724F68640009DCD66 /* VESTCustomerAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VESTCustomerAlertView.m; sourceTree = "<group>"; };
+		1F700FB424F7EF1E009DCD66 /* LSCreateAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSCreateAlertView.h; sourceTree = "<group>"; };
+		1F700FB524F7EF1E009DCD66 /* LSCreateAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSCreateAlertView.m; sourceTree = "<group>"; };
 		1F73A6F124A82D22006E6CEC /* LSABTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSABTest.h; sourceTree = "<group>"; };
 		1F73A6F224A82D22006E6CEC /* LSABTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSABTest.m; sourceTree = "<group>"; };
 		1F77E992244534DE00699C8F /* LSPurchaseManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSPurchaseManager.h; sourceTree = "<group>"; };
@@ -459,6 +554,34 @@
 		1F7ED6762417D06900FA3924 /* LSVIPAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSVIPAlertView.m; sourceTree = "<group>"; };
 		1F7ED6782417E8E500FA3924 /* LSPurchaseButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSPurchaseButton.h; sourceTree = "<group>"; };
 		1F7ED6792417E8E600FA3924 /* LSPurchaseButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSPurchaseButton.m; sourceTree = "<group>"; };
+		1F80B8CF24F3F88F00B62A87 /* VESTSignInVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VESTSignInVC.h; sourceTree = "<group>"; };
+		1F80B8D024F3F88F00B62A87 /* VESTSignInVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VESTSignInVC.m; sourceTree = "<group>"; };
+		1F80B8D224F3F89F00B62A87 /* VESTSignUpVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VESTSignUpVC.h; sourceTree = "<group>"; };
+		1F80B8D324F3F89F00B62A87 /* VESTSignUpVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VESTSignUpVC.m; sourceTree = "<group>"; };
+		1F80B8D624F3F9E900B62A87 /* VESTEmailInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VESTEmailInputView.h; sourceTree = "<group>"; };
+		1F80B8D724F3F9E900B62A87 /* VESTEmailInputView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VESTEmailInputView.m; sourceTree = "<group>"; };
+		1F80B8D924F3FC8200B62A87 /* VESTPsdInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VESTPsdInputView.h; sourceTree = "<group>"; };
+		1F80B8DA24F3FC8200B62A87 /* VESTPsdInputView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VESTPsdInputView.m; sourceTree = "<group>"; };
+		1F80B8DC24F4090200B62A87 /* VESTAgeInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VESTAgeInputView.h; sourceTree = "<group>"; };
+		1F80B8DD24F4090200B62A87 /* VESTAgeInputView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VESTAgeInputView.m; sourceTree = "<group>"; };
+		1F80B8DF24F48DF600B62A87 /* VESTOneVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VESTOneVC.h; sourceTree = "<group>"; };
+		1F80B8E024F48DF600B62A87 /* VESTOneVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VESTOneVC.m; sourceTree = "<group>"; };
+		1F80B8E224F48E0400B62A87 /* VESTTwoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VESTTwoVC.h; sourceTree = "<group>"; };
+		1F80B8E324F48E0400B62A87 /* VESTTwoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VESTTwoVC.m; sourceTree = "<group>"; };
+		1F80B8E524F48E1200B62A87 /* VESTThreeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VESTThreeVC.h; sourceTree = "<group>"; };
+		1F80B8E624F48E1200B62A87 /* VESTThreeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VESTThreeVC.m; sourceTree = "<group>"; };
+		1F80B8E824F48E1F00B62A87 /* VESTFourVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VESTFourVC.h; sourceTree = "<group>"; };
+		1F80B8E924F48E1F00B62A87 /* VESTFourVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VESTFourVC.m; sourceTree = "<group>"; };
+		1F80B8EF24F4956E00B62A87 /* LSOneCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSOneCell.h; sourceTree = "<group>"; };
+		1F80B8F024F4956E00B62A87 /* LSOneCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSOneCell.m; sourceTree = "<group>"; };
+		1F80B8F324F4A1C800B62A87 /* LSTwoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSTwoCell.h; sourceTree = "<group>"; };
+		1F80B8F424F4A1C800B62A87 /* LSTwoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSTwoCell.m; sourceTree = "<group>"; };
+		1F80B8F724F4BACF00B62A87 /* LSMessageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSMessageCell.h; sourceTree = "<group>"; };
+		1F80B8F824F4BACF00B62A87 /* LSMessageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSMessageCell.m; sourceTree = "<group>"; };
+		1F80B8FB24F4EC1000B62A87 /* VEStFourCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VEStFourCell.h; sourceTree = "<group>"; };
+		1F80B8FC24F4EC1000B62A87 /* VEStFourCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VEStFourCell.m; sourceTree = "<group>"; };
+		1F80B8FE24F4EC8800B62A87 /* VESTMineHeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VESTMineHeadView.h; sourceTree = "<group>"; };
+		1F80B8FF24F4EC8800B62A87 /* VESTMineHeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VESTMineHeadView.m; sourceTree = "<group>"; };
 		1F88FE58246AEFC400A89B51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F8A793F2420C85800B783E0 /* LSBehaviorTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSBehaviorTool.h; sourceTree = "<group>"; };
 		1F8A79402420C85800B783E0 /* LSBehaviorTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSBehaviorTool.m; sourceTree = "<group>"; };
@@ -490,7 +613,7 @@
 		1F949117246159950036C605 /* LSUploadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSUploadView.m; sourceTree = "<group>"; };
 		1F979E5923F78D68000FB5A5 /* LSMyEditCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSMyEditCell.h; sourceTree = "<group>"; };
 		1F979E5A23F78D68000FB5A5 /* LSMyEditCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSMyEditCell.m; sourceTree = "<group>"; };
-		1FB16E78239DE1DD004BD9BF /* 泡泡交友.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "泡泡交友.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FB16E78239DE1DD004BD9BF /* Happen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Happen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FB16E85239DE1DD004BD9BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1FB16E8C239DE1DF004BD9BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FB16E8D239DE1DF004BD9BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -1083,6 +1206,21 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		1F374700250F9FDA00C07FC2 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		1F374708251097FA00C07FC2 /* storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				1F3747092510981300C07FC2 /* vest.storyboard */,
+			);
+			path = storyboard;
+			sourceTree = "<group>";
+		};
 		1F38511E242F7C85007C05E1 /* AlertView */ = {
 			isa = PBXGroup;
 			children = (
@@ -1167,6 +1305,93 @@
 			path = Language;
 			sourceTree = "<group>";
 		};
+		1F5C2A2A2501ECA800127F77 /* NewTab */ = {
+			isa = PBXGroup;
+			children = (
+				1F5C2A2B2501EDD200127F77 /* VESTTabBarVC.h */,
+				1F5C2A2C2501EDD200127F77 /* VESTTabBarVC.m */,
+				1F5C2A2E2501EDEB00127F77 /* VESTTabBar.h */,
+				1F5C2A2F2501EDEB00127F77 /* VESTTabBar.m */,
+				1F5C2A312501EE0400127F77 /* VESTTabButton.h */,
+				1F5C2A322501EE0400127F77 /* VESTTabButton.m */,
+			);
+			path = NewTab;
+			sourceTree = "<group>";
+		};
+		1F5C2A36250221C100127F77 /* shipin */ = {
+			isa = PBXGroup;
+			children = (
+				1F5C2A37250221C100127F77 /* neiron.mp4 */,
+				1F5C2A38250221C100127F77 /* touxiang.png */,
+			);
+			path = shipin;
+			sourceTree = "<group>";
+		};
+		1F5C2A5925061E2800127F77 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				1F5C2A5A25061E3B00127F77 /* VESTUserTool.h */,
+				1F5C2A5B25061E3B00127F77 /* VESTUserTool.m */,
+				1F5C2A6B250636D800127F77 /* VESTDataTool.h */,
+				1F5C2A6C250636D800127F77 /* VESTDataTool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		1F5C2A5D2506329200127F77 /* yuyin */ = {
+			isa = PBXGroup;
+			children = (
+				1F5C2A5E2506329200127F77 /* Mabbsy_27 */,
+				1F5C2A612506329200127F77 /* lrina_29 */,
+			);
+			path = yuyin;
+			sourceTree = "<group>";
+		};
+		1F5C2A5E2506329200127F77 /* Mabbsy_27 */ = {
+			isa = PBXGroup;
+			children = (
+				1F5C2A5F2506329200127F77 /* yuyin1_head.png */,
+				1F5C2A602506329200127F77 /* yuyin1.mp3 */,
+			);
+			path = Mabbsy_27;
+			sourceTree = "<group>";
+		};
+		1F5C2A612506329200127F77 /* lrina_29 */ = {
+			isa = PBXGroup;
+			children = (
+				1F5C2A622506329200127F77 /* yuyin2.mp3 */,
+				1F5C2A632506329200127F77 /* yuyin2_head.png */,
+			);
+			path = lrina_29;
+			sourceTree = "<group>";
+		};
+		1F5C2A68250633D600127F77 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				1F5C2ABE250A0DC600127F77 /* shipin.json */,
+				1F5C2A692506357D00127F77 /* yuyin.json */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		1F5C2A6E2506379000127F77 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1F5C2A6F250637A500127F77 /* VESTUserModel.h */,
+				1F5C2A70250637A500127F77 /* VESTUserModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1F5C2ABA2509FED100127F77 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				1F5C2ABB2509FEEC00127F77 /* VESTSaveMessageTool.h */,
+				1F5C2ABC2509FEEC00127F77 /* VESTSaveMessageTool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
 		1F5D2962241107690038E965 /* NSDictionary */ = {
 			isa = PBXGroup;
 			children = (
@@ -1247,6 +1472,101 @@
 			path = Color;
 			sourceTree = "<group>";
 		};
+		1F700F6924F63402009DCD66 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1F700F6A24F63414009DCD66 /* VESTChargeVC.h */,
+				1F700F6B24F63414009DCD66 /* VESTChargeVC.m */,
+				1F3746FD250C6B0F00C07FC2 /* VESTVIPVC.h */,
+				1F3746FE250C6B0F00C07FC2 /* VESTVIPVC.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		1F700F7324F63BE3009DCD66 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1F700F7424F63BF5009DCD66 /* VESTLiveVC.h */,
+				1F700F7524F63BF5009DCD66 /* VESTLiveVC.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		1F700F7724F63F53009DCD66 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				1F374700250F9FDA00C07FC2 /* Welcome */,
+				1F700F9524F68628009DCD66 /* AlertView */,
+				1F700F7824F63F58009DCD66 /* Message */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		1F700F7824F63F58009DCD66 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				1F5C2ABA2509FED100127F77 /* Tool */,
+				1F700F8624F6534E009DCD66 /* Model */,
+				1F700F7F24F648B6009DCD66 /* View */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		1F700F7F24F648B6009DCD66 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1F700F7924F63F68009DCD66 /* VESTMsgSendView.h */,
+				1F700F7A24F63F68009DCD66 /* VESTMsgSendView.m */,
+				1F700F7C24F646E8009DCD66 /* VESTMessageView.h */,
+				1F700F7D24F646E8009DCD66 /* VESTMessageView.m */,
+				1F700F8024F648D6009DCD66 /* VESTReceiveCell.h */,
+				1F700F8124F648D6009DCD66 /* VESTReceiveCell.m */,
+				1F700F8324F648E6009DCD66 /* VESTSendCell.h */,
+				1F700F8424F648E6009DCD66 /* VESTSendCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1F700F8624F6534E009DCD66 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1F700F8724F65365009DCD66 /* VESTMessageModel.h */,
+				1F700F8824F65365009DCD66 /* VESTMessageModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1F700F8D24F65B76009DCD66 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1F700F8E24F65B93009DCD66 /* VESTTwoLiveVC.h */,
+				1F700F8F24F65B93009DCD66 /* VESTTwoLiveVC.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		1F700F9124F680B6009DCD66 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1F700F9224F680D3009DCD66 /* LSThreeMsgVC.h */,
+				1F700F9324F680D3009DCD66 /* LSThreeMsgVC.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		1F700F9524F68628009DCD66 /* AlertView */ = {
+			isa = PBXGroup;
+			children = (
+				1F700F9624F68640009DCD66 /* VESTCustomerAlertView.h */,
+				1F700F9724F68640009DCD66 /* VESTCustomerAlertView.m */,
+				1F700FB424F7EF1E009DCD66 /* LSCreateAlertView.h */,
+				1F700FB524F7EF1E009DCD66 /* LSCreateAlertView.m */,
+				1F5C2AB72509CEC100127F77 /* VESTCreateFinishAlertView.h */,
+				1F5C2AB82509CEC100127F77 /* VESTCreateFinishAlertView.m */,
+			);
+			path = AlertView;
+			sourceTree = "<group>";
+		};
 		1F73A6F024A82D09006E6CEC /* ABTest */ = {
 			isa = PBXGroup;
 			children = (
@@ -1285,6 +1605,163 @@
 				1F7ED6792417E8E600FA3924 /* LSPurchaseButton.m */,
 			);
 			path = VIP;
+			sourceTree = "<group>";
+		};
+		1F80B8BC24F3BFC600B62A87 /* Vest */ = {
+			isa = PBXGroup;
+			children = (
+				1F5C2A6E2506379000127F77 /* Model */,
+				1F5C2A5925061E2800127F77 /* Tool */,
+				1F80B8BE24F3BFF300B62A87 /* Resource */,
+				1F80B8BD24F3BFDC00B62A87 /* ViewController */,
+			);
+			path = Vest;
+			sourceTree = "<group>";
+		};
+		1F80B8BD24F3BFDC00B62A87 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1F700F7724F63F53009DCD66 /* Common */,
+				1F80B8C524F3F54200B62A87 /* Login */,
+				1F80B8C024F3F4A600B62A87 /* Tab */,
+				1F80B8C424F3F53300B62A87 /* Four */,
+				1F80B8C324F3F52D00B62A87 /* Three */,
+				1F80B8C224F3F52900B62A87 /* Two */,
+				1F80B8C124F3F52000B62A87 /* One */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		1F80B8BE24F3BFF300B62A87 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				1F374708251097FA00C07FC2 /* storyboard */,
+				1F5C2A68250633D600127F77 /* JSON */,
+				1F5C2A5D2506329200127F77 /* yuyin */,
+				1F5C2A36250221C100127F77 /* shipin */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		1F80B8C024F3F4A600B62A87 /* Tab */ = {
+			isa = PBXGroup;
+			children = (
+				1F5C2A2A2501ECA800127F77 /* NewTab */,
+			);
+			path = Tab;
+			sourceTree = "<group>";
+		};
+		1F80B8C124F3F52000B62A87 /* One */ = {
+			isa = PBXGroup;
+			children = (
+				1F80B8DF24F48DF600B62A87 /* VESTOneVC.h */,
+				1F80B8E024F48DF600B62A87 /* VESTOneVC.m */,
+				1F700F7324F63BE3009DCD66 /* ViewController */,
+				1F80B8EE24F4954E00B62A87 /* View */,
+			);
+			path = One;
+			sourceTree = "<group>";
+		};
+		1F80B8C224F3F52900B62A87 /* Two */ = {
+			isa = PBXGroup;
+			children = (
+				1F80B8E224F48E0400B62A87 /* VESTTwoVC.h */,
+				1F80B8E324F48E0400B62A87 /* VESTTwoVC.m */,
+				1F700F8D24F65B76009DCD66 /* ViewController */,
+				1F80B8F224F4A1A300B62A87 /* View */,
+			);
+			path = Two;
+			sourceTree = "<group>";
+		};
+		1F80B8C324F3F52D00B62A87 /* Three */ = {
+			isa = PBXGroup;
+			children = (
+				1F80B8E524F48E1200B62A87 /* VESTThreeVC.h */,
+				1F80B8E624F48E1200B62A87 /* VESTThreeVC.m */,
+				1F700F9124F680B6009DCD66 /* ViewController */,
+				1F80B8F624F4BABD00B62A87 /* View */,
+			);
+			path = Three;
+			sourceTree = "<group>";
+		};
+		1F80B8C424F3F53300B62A87 /* Four */ = {
+			isa = PBXGroup;
+			children = (
+				1F80B8E824F48E1F00B62A87 /* VESTFourVC.h */,
+				1F80B8E924F48E1F00B62A87 /* VESTFourVC.m */,
+				1F700F6924F63402009DCD66 /* ViewController */,
+				1F80B8FA24F4EBEF00B62A87 /* View */,
+			);
+			path = Four;
+			sourceTree = "<group>";
+		};
+		1F80B8C524F3F54200B62A87 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				1F80B8D524F3F9BC00B62A87 /* View */,
+				1F80B8CF24F3F88F00B62A87 /* VESTSignInVC.h */,
+				1F80B8D024F3F88F00B62A87 /* VESTSignInVC.m */,
+				1F80B8D224F3F89F00B62A87 /* VESTSignUpVC.h */,
+				1F80B8D324F3F89F00B62A87 /* VESTSignUpVC.m */,
+				1F5C2A53250618FC00127F77 /* VESTSignUpNameVC.h */,
+				1F5C2A54250618FC00127F77 /* VESTSignUpNameVC.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		1F80B8D524F3F9BC00B62A87 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1F80B8D624F3F9E900B62A87 /* VESTEmailInputView.h */,
+				1F80B8D724F3F9E900B62A87 /* VESTEmailInputView.m */,
+				1F80B8D924F3FC8200B62A87 /* VESTPsdInputView.h */,
+				1F80B8DA24F3FC8200B62A87 /* VESTPsdInputView.m */,
+				1F80B8DC24F4090200B62A87 /* VESTAgeInputView.h */,
+				1F80B8DD24F4090200B62A87 /* VESTAgeInputView.m */,
+				1F5C2A5625061B0100127F77 /* VESTNameInputView.h */,
+				1F5C2A5725061B0100127F77 /* VESTNameInputView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1F80B8EE24F4954E00B62A87 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1F80B8EF24F4956E00B62A87 /* LSOneCell.h */,
+				1F80B8F024F4956E00B62A87 /* LSOneCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1F80B8F224F4A1A300B62A87 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1F80B8F324F4A1C800B62A87 /* LSTwoCell.h */,
+				1F80B8F424F4A1C800B62A87 /* LSTwoCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1F80B8F624F4BABD00B62A87 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1F80B8F724F4BACF00B62A87 /* LSMessageCell.h */,
+				1F80B8F824F4BACF00B62A87 /* LSMessageCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1F80B8FA24F4EBEF00B62A87 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1F80B8FB24F4EC1000B62A87 /* VEStFourCell.h */,
+				1F80B8FC24F4EC1000B62A87 /* VEStFourCell.m */,
+				1F700F7024F6378E009DCD66 /* VESTChargeCell.h */,
+				1F700F7124F6378E009DCD66 /* VESTChargeCell.m */,
+				1F80B8FE24F4EC8800B62A87 /* VESTMineHeadView.h */,
+				1F80B8FF24F4EC8800B62A87 /* VESTMineHeadView.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		1F8A793E2420C83D00B783E0 /* Behavior【埋点】 */ = {
@@ -1399,8 +1876,8 @@
 		1FB16E6F239DE1DD004BD9BF = {
 			isa = PBXGroup;
 			children = (
-				1F55D62824D56B59000A0166 /* icon.png */,
-				1F55D62624D56B53000A0166 /* bg.png */,
+				1F374705251097D200C07FC2 /* vest_logo.png */,
+				1F80B8BC24F3BFC600B62A87 /* Vest */,
 				1FB16E7A239DE1DD004BD9BF /* Project */,
 				1FB16E96239DE1DF004BD9BF /* ProjectTests */,
 				1FB16EA1239DE1DF004BD9BF /* ProjectUITests */,
@@ -1413,7 +1890,7 @@
 		1FB16E79239DE1DD004BD9BF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1FB16E78239DE1DD004BD9BF /* 泡泡交友.app */,
+				1FB16E78239DE1DD004BD9BF /* Happen.app */,
 				1FB16E93239DE1DF004BD9BF /* ProjectTests.xctest */,
 				1FB16E9E239DE1DF004BD9BF /* ProjectUITests.xctest */,
 			);
@@ -1526,8 +2003,6 @@
 			isa = PBXGroup;
 			children = (
 				1FB16E84239DE1DD004BD9BF /* Main.storyboard */,
-				1F4EC9FC24C9627100E75A56 /* Storyboard.storyboard */,
-				1F55D62424D56A60000A0166 /* welcome1.storyboard */,
 			);
 			path = StoreBoard;
 			sourceTree = "<group>";
@@ -2261,7 +2736,7 @@
 			);
 			name = Project;
 			productName = Project;
-			productReference = 1FB16E78239DE1DD004BD9BF /* 泡泡交友.app */;
+			productReference = 1FB16E78239DE1DD004BD9BF /* Happen.app */;
 			productType = "com.apple.product-type.application";
 		};
 		1FB16E92239DE1DF004BD9BF /* ProjectTests */ = {
@@ -2350,22 +2825,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FB3E3AA2428D04800CA99CB /* Terms.html in Resources */,
+				1F5C2A662506329200127F77 /* yuyin2.mp3 in Resources */,
+				1F374707251097D200C07FC2 /* vest_logo.png in Resources */,
 				1FB89D1A23C863F2003B102A /* README in Resources */,
+				1F5C2A3A250221C100127F77 /* touxiang.png in Resources */,
 				1F44AE5324DA55D2001DDC23 /* purchase.json in Resources */,
-				1F55D62724D56B53000A0166 /* bg.png in Resources */,
 				1FB89B4D23C47786003B102A /* xxlog_drag@2x.png in Resources */,
 				1F88FE59246AEFC500A89B51 /* Assets.xcassets in Resources */,
 				1FB3E3BD2429EAB000CA99CB /* Privacy.html in Resources */,
-				1F4EC9FD24C9627100E75A56 /* Storyboard.storyboard in Resources */,
-				1F55D62524D56A60000A0166 /* welcome1.storyboard in Resources */,
+				1F5C2A642506329200127F77 /* yuyin1_head.png in Resources */,
+				1F5C2A6A2506357E00127F77 /* yuyin.json in Resources */,
 				1F58E98F24CBE24000A52C6F /* InfoPlist.strings in Resources */,
+				1F5C2A652506329200127F77 /* yuyin1.mp3 in Resources */,
 				1FB89D1823C863F2003B102A /* LICENSE in Resources */,
 				1FB16E86239DE1DD004BD9BF /* Main.storyboard in Resources */,
 				1FB89D1723C863F2003B102A /* README.ASN1 in Resources */,
-				1F55D62924D56B59000A0166 /* icon.png in Resources */,
 				1F55D62324D565D1000A0166 /* Terms_China.html in Resources */,
 				1F58E99524CBE4BE00A52C6F /* Localizable.strings in Resources */,
+				1F5C2A672506329200127F77 /* yuyin2_head.png in Resources */,
+				1F5C2A39250221C100127F77 /* neiron.mp4 in Resources */,
 				1FB89D1623C863F2003B102A /* public_key.der in Resources */,
+				1F5C2ABF250A0DC700127F77 /* shipin.json in Resources */,
+				1F37470A2510981300C07FC2 /* vest.storyboard in Resources */,
 				1FB89D1923C863F2003B102A /* README.ENGINE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2454,22 +2935,28 @@
 				1F1100CB24591E2B00D561F3 /* LSMessageFastSendView.m in Sources */,
 				1F69643A23CD98F600906206 /* UIColor+LSConst.m in Sources */,
 				1F6DC0502415DCE300D89C5B /* LSChooseAlertView.m in Sources */,
+				1F5C2AB92509CEC100127F77 /* VESTCreateFinishAlertView.m in Sources */,
+				1F5C2A332501EE0400127F77 /* VESTTabButton.m in Sources */,
 				1F5D297A241286760038E965 /* NSString+XWValidator.m in Sources */,
 				1FB89B5B23C47786003B102A /* XXTransition.m in Sources */,
 				1F51892723D7EE4C00BAEA3A /* LSConversationVC.m in Sources */,
+				1F3746FF250C6B0F00C07FC2 /* VESTVIPVC.m in Sources */,
 				1F1F99CB23CF36F500306C8E /* MiddlePopView.m in Sources */,
 				1F7ED6772417D06900FA3924 /* LSVIPAlertView.m in Sources */,
 				1FB89C5223C85FEF003B102A /* DiskCache.m in Sources */,
 				1FE9F5D52484AB9E0096C5FF /* XWTabBarController.m in Sources */,
 				1FCE9C67241D3AAE00614C45 /* LSNotiBaseView.m in Sources */,
 				1F269E9C23F59D5A00675258 /* LSSignUpHeadVC.m in Sources */,
+				1F80B8F524F4A1C900B62A87 /* LSTwoCell.m in Sources */,
 				1F5D296824113BEB0038E965 /* LSFilterViewController.m in Sources */,
 				1F269E7F23EFE9C700675258 /* LSDetailCell.m in Sources */,
 				1FB89B7F23C6AFFE003B102A /* CountDownButton.m in Sources */,
 				1F5D29822412AAE40038E965 /* LSLocationManager.m in Sources */,
 				1F0405B7248E813D003C7C83 /* LSMineSectionHeader.m in Sources */,
 				1FB89B7C23C6AFFE003B102A /* AlertView.m in Sources */,
+				1F80B8E124F48DF600B62A87 /* VESTOneVC.m in Sources */,
 				1F911FA02474107F00930678 /* LSSignUpNotifyVC.m in Sources */,
+				1F80B8D124F3F88F00B62A87 /* VESTSignInVC.m in Sources */,
 				1FB89BCE23C6B0DD003B102A /* NSObject+Obj.m in Sources */,
 				1F77E994244534DE00699C8F /* LSPurchaseManager.m in Sources */,
 				1FB89C5523C85FF0003B102A /* LRUManager.m in Sources */,
@@ -2478,25 +2965,33 @@
 				1F5F6E2924946ABF004540B1 /* MKAppleLogin.m in Sources */,
 				1F5D297624122DED0038E965 /* SEEKING_Customer.m in Sources */,
 				1F269EAC23F649C400675258 /* SEEKING_UserModel.m in Sources */,
+				1F80B8E424F48E0400B62A87 /* VESTTwoVC.m in Sources */,
 				1FB89B4C23C47786003B102A /* XXLog.m in Sources */,
 				1FB89BBE23C6B0DC003B102A /* UILabel+TFUtils.m in Sources */,
 				1FE9F5DE2484AD890096C5FF /* NSArray+XWUtils.m in Sources */,
 				1F58E9A324CF4AD000A52C6F /* LSPurchaseNewButton.m in Sources */,
+				1F5C2A5C25061E3C00127F77 /* VESTUserTool.m in Sources */,
 				1FB89B5623C47786003B102A /* XXLockTouchIdTool.m in Sources */,
+				1F80B8D424F3F89F00B62A87 /* VESTSignUpVC.m in Sources */,
 				1FB89BC723C6B0DD003B102A /* NSString+Format.m in Sources */,
+				1F80B8F924F4BACF00B62A87 /* LSMessageCell.m in Sources */,
 				1FCE9C56241AAB6E00614C45 /* LSMineFeedBackVC.m in Sources */,
 				1FB89BC623C6B0DD003B102A /* NSString+Utils.m in Sources */,
 				1F042944246C468E005DAABF /* LSAddPhotoAlert.m in Sources */,
 				1FB89B4F23C47786003B102A /* XXLogCircleView.m in Sources */,
+				1F700F9424F680D3009DCD66 /* LSThreeMsgVC.m in Sources */,
 				1FB89BC823C6B0DD003B102A /* NSString+Password.m in Sources */,
 				1F19507E2408F576002D8148 /* LSDetailTagsCell.m in Sources */,
 				1F1950112406B50E002D8148 /* LSSignUpNameVC.m in Sources */,
 				1F269EA423F5AE2200675258 /* LSSignInVC.m in Sources */,
 				1FB89BC023C6B0DC003B102A /* UIButton+TFUtils.m in Sources */,
 				1F1950552407C778002D8148 /* LSMineVC.m in Sources */,
+				1F700F9024F65B93009DCD66 /* VESTTwoLiveVC.m in Sources */,
 				1FB89B5E23C47786003B102A /* UINavigationController+XXTransition.m in Sources */,
+				1F5C2A302501EDEB00127F77 /* VESTTabBar.m in Sources */,
 				1F269E8323F020BF00675258 /* LSMeCell.m in Sources */,
 				1F77E997244680FC00699C8F /* LSMatchLikeView.m in Sources */,
+				1F700F8524F648E6009DCD66 /* VESTSendCell.m in Sources */,
 				1FB3E3C32429F2C000CA99CB /* LSHttpClient.m in Sources */,
 				1FB89BC923C6B0DD003B102A /* UIViewController+Utils.m in Sources */,
 				1F1F99CC23CF36F500306C8E /* MidPopView.m in Sources */,
@@ -2513,6 +3008,7 @@
 				1F911F9D2473CFF100930678 /* LSSlider.m in Sources */,
 				1FB3E3A12427BC1F00CA99CB /* LSGirlZhaoHuHealper.m in Sources */,
 				1F7ED6652417379000FA3924 /* LSChooseWightView.m in Sources */,
+				1F80B90024F4EC8800B62A87 /* VESTMineHeadView.m in Sources */,
 				1FB89C5423C85FF0003B102A /* CacheManager.m in Sources */,
 				1F51893623D7F37500BAEA3A /* CCDraggableCardView.m in Sources */,
 				1FB16E8E239DE1DF004BD9BF /* main.m in Sources */,
@@ -2524,6 +3020,7 @@
 				1FD4C5702448155000165B63 /* LSRYUserInfo.m in Sources */,
 				1F949108245AAFEB0036C605 /* LSMineProfileChooseCell.m in Sources */,
 				1F195086240925AD002D8148 /* LSMatchAlertView.m in Sources */,
+				1F80B8EA24F48E1F00B62A87 /* VESTFourVC.m in Sources */,
 				1F1950422407A391002D8148 /* LSNotificationsVC.m in Sources */,
 				1F269E7C23EFE22000675258 /* LSDetailViewController.m in Sources */,
 				1FB89B5823C47786003B102A /* XXLockCircle.m in Sources */,
@@ -2544,6 +3041,7 @@
 				1FB89BC123C6B0DC003B102A /* UIColor+Image.m in Sources */,
 				1F5D298F241486C00038E965 /* LSRYChatViewController.m in Sources */,
 				1FB89B7D23C6AFFE003B102A /* PhoneTextField.m in Sources */,
+				1F80B8F124F4956E00B62A87 /* LSOneCell.m in Sources */,
 				1F1950302406D981002D8148 /* LSSignUpChooseView.m in Sources */,
 				1F60298C24A4A09800025F55 /* UIButton+EdgeInsets.m in Sources */,
 				1F9491112460DA140036C605 /* LSMineCPFinishVC.m in Sources */,
@@ -2551,6 +3049,8 @@
 				1FB89C5923C85FF0003B102A /* UploadFile.m in Sources */,
 				1FB89B7B23C6AFFE003B102A /* ImagePicker.m in Sources */,
 				1F53D38423CC190D0062367F /* LSWelcomeVC.m in Sources */,
+				1F5C2A71250637A500127F77 /* VESTUserModel.m in Sources */,
+				1F700F7224F6378E009DCD66 /* VESTChargeCell.m in Sources */,
 				1FB89B5323C47786003B102A /* XXLockSudoko.m in Sources */,
 				1F60298924A4889400025F55 /* FBShimmeringView.m in Sources */,
 				1F0405B42488ED30003C7C83 /* LSChatNotificationView.m in Sources */,
@@ -2564,22 +3064,30 @@
 				1F5D2986241391CE0038E965 /* LSMessageMatchView.m in Sources */,
 				1FB89BC423C6B0DD003B102A /* NSData+Trim.m in Sources */,
 				1FB89B5523C47786003B102A /* XXLockTool.m in Sources */,
+				1F700F7B24F63F68009DCD66 /* VESTMsgSendView.m in Sources */,
 				1F19509224095EE2002D8148 /* LSPhotoEditView.m in Sources */,
 				1F5D298C2413D59A0038E965 /* LSConversationCell.m in Sources */,
 				1FCE9C5E241B767C00614C45 /* LSMessageBannerView.m in Sources */,
+				1F700F6C24F63414009DCD66 /* VESTChargeVC.m in Sources */,
 				1FB89BCD23C6B0DD003B102A /* NSNumber+Format.m in Sources */,
+				1F700FB624F7EF1E009DCD66 /* LSCreateAlertView.m in Sources */,
+				1F5C2A2D2501EDD200127F77 /* VESTTabBarVC.m in Sources */,
+				1F5C2A6D250636D800127F77 /* VESTDataTool.m in Sources */,
 				1FB89B5123C47786003B102A /* XXLogSqurePopView.m in Sources */,
 				1F7D0CF92422F70B000A5E3B /* SEEKING_FilterModel.m in Sources */,
 				1FB89B5923C47786003B102A /* XXRefreshHeader.m in Sources */,
 				1F979E5B23F78D68000FB5A5 /* LSMyEditCell.m in Sources */,
 				1F269EA823F6423100675258 /* XWChooseImageButton.m in Sources */,
+				1F700F7624F63BF5009DCD66 /* VESTLiveVC.m in Sources */,
 				1FB89B5D23C47786003B102A /* XXTransitionManager.m in Sources */,
 				1FB89B5023C47786003B102A /* XXLogView.m in Sources */,
 				1F5D296E241208800038E965 /* DoubleSliderView.m in Sources */,
 				1FB89C5A23C85FF0003B102A /* Response.m in Sources */,
 				1F0405BA24921FE5003C7C83 /* LSNotificationAlertView.m in Sources */,
+				1F80B8D824F3F9E900B62A87 /* VESTEmailInputView.m in Sources */,
 				1F94910B245AB5E50036C605 /* LSMinePCNav.m in Sources */,
 				1F1950272406C5DA002D8148 /* LSChooseNeedsView.m in Sources */,
+				1F5C2A5825061B0100127F77 /* VESTNameInputView.m in Sources */,
 				1F269E9623F59D2B00675258 /* LSSignUpAgeVC.m in Sources */,
 				1F1950452407B7C7002D8148 /* LSNotiLikesMeView.m in Sources */,
 				1FB89B5A23C47786003B102A /* XXRefreshFooter.m in Sources */,
@@ -2588,6 +3096,7 @@
 				1FB89C5723C85FF0003B102A /* NSObject+Networking.m in Sources */,
 				1F19504B2407B7EB002D8148 /* LSNotiiLikeView.m in Sources */,
 				1F46A59F2499131C00E12F94 /* NSObject+LSCommonRequest.m in Sources */,
+				1F5C2A55250618FC00127F77 /* VESTSignUpNameVC.m in Sources */,
 				1FB89B6423C4781D003B102A /* LSBaseNavigationController.m in Sources */,
 				1FB16EBF239DE443004BD9BF /* AppDelegate.mm in Sources */,
 				1F19508F240941C1002D8148 /* LSMineSettingVC.m in Sources */,
@@ -2602,10 +3111,13 @@
 				1FE9F5E2248685990096C5FF /* LSSignInEmailVC.m in Sources */,
 				1F0FF3172414AF24004C2CCF /* SEEKING_CustomerLoadingView.m in Sources */,
 				1FB89D1423C863F2003B102A /* CustomBase64.m in Sources */,
+				1F80B8E724F48E1200B62A87 /* VESTThreeVC.m in Sources */,
 				1FB89B5223C47786003B102A /* XXLogSqureView.m in Sources */,
 				1FD4C5922450176E00165B63 /* LSGuideOneAlertView.m in Sources */,
 				1FB89B1623C47350003B102A /* LSBaseViewController.m in Sources */,
+				1F700F8924F65365009DCD66 /* VESTMessageModel.m in Sources */,
 				1FB89BC523C6B0DD003B102A /* UIImageView+Utils.m in Sources */,
+				1F80B8DB24F3FC8200B62A87 /* VESTPsdInputView.m in Sources */,
 				1FB89BD123C6B0DD003B102A /* NSDate+Extend.m in Sources */,
 				1FB89C5323C85FF0003B102A /* MemoryCache.m in Sources */,
 				1F46A58D24986C6500E12F94 /* LSSearchPrivilegeVC.m in Sources */,
@@ -2618,10 +3130,15 @@
 				1F46A590249895AA00E12F94 /* LSCuteManVC.m in Sources */,
 				1FD4C598245180A600165B63 /* LSDetailDefaultCell.m in Sources */,
 				1F60297B24A41FE900025F55 /* LSIncognitoModeCell.m in Sources */,
+				1F5C2ABD2509FEEC00127F77 /* VESTSaveMessageTool.m in Sources */,
+				1F700F9824F68640009DCD66 /* VESTCustomerAlertView.m in Sources */,
 				1FB89B5C23C47786003B102A /* XXAnimatedTransitioning.m in Sources */,
 				1F1950892409418C002D8148 /* LSMineActivityVC.m in Sources */,
+				1F700F7E24F646E8009DCD66 /* VESTMessageView.m in Sources */,
 				1F1F99CA23CF36F500306C8E /* BottomPopView.m in Sources */,
+				1F80B8FD24F4EC1000B62A87 /* VEStFourCell.m in Sources */,
 				1FB89D1323C863F2003B102A /* MD5Encryptor.m in Sources */,
+				1F700F8224F648D6009DCD66 /* VESTReceiveCell.m in Sources */,
 				1FB89B4E23C47786003B102A /* XXLogModel.m in Sources */,
 				1F1950482407B7DC002D8148 /* LSNotiViewedMeView.m in Sources */,
 				1FB3E39D24271BCA00CA99CB /* SEEKING_DetileModel.m in Sources */,
@@ -2639,6 +3156,7 @@
 				1F0F734B246A4B330022773D /* LSMessageSendView.m in Sources */,
 				1FB89C5823C85FF0003B102A /* Networking+RequestManager.m in Sources */,
 				1FB89BC223C6B0DD003B102A /* UIView+Utils.m in Sources */,
+				1F80B8DE24F4090200B62A87 /* VESTAgeInputView.m in Sources */,
 				1F1950142406B83D002D8148 /* LSSignUpHeightVC.m in Sources */,
 				1F7ED67A2417E8E600FA3924 /* LSPurchaseButton.m in Sources */,
 				1F4116C3240BB7EC002406A2 /* LSSayHiAlertView.m in Sources */,
@@ -2835,6 +3353,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Project/Vender/QuickSDK",
+					"$(PROJECT_DIR)/Vest/Resource",
 				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Project/Expande/Macros/PrefixHeader.pch";
 				HEADER_SEARCH_PATHS = (
@@ -2865,7 +3384,7 @@
 				);
 				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.wangjing.affairdating;
-				PRODUCT_NAME = "泡泡交友";
+				PRODUCT_NAME = Happen;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Project/Expande/Network/NetWorking/Enrypt/OpenSSL/opensslIncludes\"";
@@ -2886,6 +3405,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Project/Vender/QuickSDK",
+					"$(PROJECT_DIR)/Vest/Resource",
 				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Project/Expande/Macros/PrefixHeader.pch";
 				HEADER_SEARCH_PATHS = (
@@ -2916,7 +3436,7 @@
 				);
 				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.wangjing.affairdating;
-				PRODUCT_NAME = "泡泡交友";
+				PRODUCT_NAME = Happen;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Project/Expande/Network/NetWorking/Enrypt/OpenSSL/opensslIncludes\"";

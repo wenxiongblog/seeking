@@ -5,7 +5,7 @@
 //  Created by Sole on 2018/3/19.
 //  Copyright © 2018年 sole(sole.he@sophonspace.com). All rights reserved.
 //
-
+    
 #import "NSMapTable+XB.h"
 
 @implementation NSMapTable (XB)

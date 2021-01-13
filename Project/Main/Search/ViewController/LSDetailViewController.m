@@ -17,7 +17,6 @@
 #import "LSPictureScrollView.h"
 #import "LSRongYunHelper.h"
 
-
 @interface LSDetailViewController ()<UITableViewDelegate,UITableViewDataSource,SDCycleScrollViewDelegate>
 @property (nonatomic,strong) UITableView *mainTableView;
 @property (nonatomic,strong) UIView *headView;

@@ -14,7 +14,6 @@ static const CGFloat kCoverPictureRippleDuration = 6;
 static const CGFloat kCoverPictureRippleCount = 5;
 @interface SEEKING_CustomerLoadingView ()
 @property (nonatomic,strong) UIImageView *coverImageView;
-//@property (nonatomic, strong) CALayer * animationLayer;
 @property (nonatomic,strong) UIImageView *bgImageView;
 
 @property (nonatomic, strong) NSMutableArray<CALayer *> *rippleArray;

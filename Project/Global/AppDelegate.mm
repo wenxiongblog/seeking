@@ -42,7 +42,10 @@
 
 //购买
 #import "LSPurchaseManager.h"
-#import "LSImageVC.h"
+
+//马甲
+#import "VESTSignInVC.h"
+#import "VESTTabBarVC.h"
 
 @interface AppDelegate ()<UNUserNotificationCenterDelegate>
     
@@ -55,7 +58,6 @@
     
     //购买预加载
     [[LSPurchaseManager share]preGetPurchaseInfo:^(NSArray<LSPurchaseModel *> * _Nonnull array) {
-        
     }];
     //腾讯bugly
     [Bugly startWithAppId:TX_BUGLY_KEY];
@@ -75,9 +77,12 @@
     // 设定主界面
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     [self.window setBackgroundColor:[UIColor whiteColor]];
+    [JumpUtils jumpWelcomeModel];
     
-    UIViewController *vc = nil;
-    vc = [[LSImageVC alloc]init];
+//    UIViewController *vc = nil;
+//    vc = [LSWelcomeVC new];
+//    vc = [[LSWelcomeVC alloc]init];
+    
 //    if(kUser.isLogin){
 //        //进行判断是否填完善了信息
 //        LSSignUpBaseVC *infoVC = [LSSignInNavigationController gofinishInfoVC];
@@ -91,8 +96,9 @@
 //    }else{
 //        vc = [[LSSignInNavigationController alloc]initWithRootViewController:[[LSSignInVC alloc]init] Complete:nil];
 //    }
-    [self.window setRootViewController:vc];
-    [self.window makeKeyAndVisible];
+    
+//    [self.window setRootViewController:vc];
+//    [self.window makeKeyAndVisible];
     
     //状态栏颜色
     if (@available(iOS 13.0, *)) {

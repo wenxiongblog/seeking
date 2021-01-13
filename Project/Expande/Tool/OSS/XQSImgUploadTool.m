@@ -129,7 +129,6 @@ static OSSClient * client;
     return put;
 }
 
-
 // 上传多张图片
 +(void)uploadPhotos:(NSArray<UIImage *> *)imageArr progress:(Progress)progressBlock resultBlock:(ResultBlockT)resultBlock isAsync:(BOOL)isAsync{
 

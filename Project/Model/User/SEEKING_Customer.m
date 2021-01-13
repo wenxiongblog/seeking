@@ -148,6 +148,7 @@
     NSString *rong = [d DataTOjsonString];
     return rong;
 }
+
 //打招呼的额外字段
 - (NSString *)rongYunExtraWithZhaoHu
 {

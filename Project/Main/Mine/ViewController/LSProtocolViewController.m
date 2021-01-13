@@ -44,7 +44,7 @@
     _fileType = fileType;
     if(fileType == 0){
         [self speciceNavWithTitle:kLanguage(@"Terms of Use")];
-        NSString *path = [[NSBundle mainBundle] pathForResource:@"Terms_China.html" ofType:nil];
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"Terms.html" ofType:nil];
         NSString *htmlString = [[NSString alloc]initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:nil];
         [self.webView loadHTMLString:htmlString baseURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] bundlePath]]];
     }else if(fileType == 1){

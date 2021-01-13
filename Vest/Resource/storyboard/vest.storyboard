@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Wll-pX-UNf">
+            <objects>
+                <viewController id="X02-Og-Gnv" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="700-Mx-XNo">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vest_logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="BgU-Ta-GjC">
+                                <rect key="frame" x="107" y="134" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="AMi-Ii-ScH"/>
+                                    <constraint firstAttribute="width" constant="200" id="Yyf-Tr-nil"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="BgU-Ta-GjC" firstAttribute="top" secondItem="bb6-OH-trC" secondAttribute="top" constant="90" id="YiR-c3-iRq"/>
+                            <constraint firstItem="BgU-Ta-GjC" firstAttribute="centerX" secondItem="700-Mx-XNo" secondAttribute="centerX" id="cgj-Cf-ab1"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="bb6-OH-trC"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fkH-FW-vg7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="92.753623188405811" y="47.544642857142854"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="vest_logo.png" width="337" height="192"/>
+    </resources>
+</document>

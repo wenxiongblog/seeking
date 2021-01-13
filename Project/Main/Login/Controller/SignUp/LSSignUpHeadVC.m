@@ -24,8 +24,6 @@
 #pragma mark - 头像
 - (void)MDChooseHeadImage06{}
 
-
-
 #pragma mark - life Cycle
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -74,7 +72,6 @@
         kXWWeakSelf(weakself);
         [button setAction:^{
             [weakself uploadImage:weakself.image];
-            
         }];
         _nextButton = button;
     }

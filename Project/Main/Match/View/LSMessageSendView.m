@@ -54,7 +54,6 @@
     [self xwDrawCornerWithRadiuce:5];
     self.backgroundColor = [UIColor xwColorWithHexString:@"#492CD1"];
     
-    
     UIImageView *imageView = [[UIImageView alloc]initWithImage:XWImageName(@"Matchs_msg")];
     imageView.contentMode = UIViewContentModeScaleAspectFit;
     [self addSubview:imageView];

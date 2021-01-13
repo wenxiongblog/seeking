@@ -30,20 +30,16 @@
     [self.mainTextField becomeFirstResponder];
 }
 
-
-
 #pragma mark - baseConfig1
 - (void)SEEKING_baseUIConfig
 {
     self.titleLabel.text = kLanguage(@"Your name");
     [self.view addSubview:self.nameView];
     [self.view addSubview:self.nextButton];
-    
 }
 
 - (void)SEEKING_baseConstraintsConfig
 {
-
     [self.nameView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.height.equalTo(@50);
         make.width.equalTo(@(XW(300)));

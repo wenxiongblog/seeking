@@ -11,10 +11,7 @@
 #import <MJExtension/MJExtension.h>
 #import <SAMKeychain/SAMKeychain.h>
 
-//测试和正式
-#define kVIP_7_DAY  @"paopao_07_vip"
-#define kVIP_30_DAY  @"paopao_30_vip"
-#define kVIP_90_DAY  @"paopao_90_vip"
+
 
 @interface LSPurchaseManager()
 @property (nonatomic,strong) NSArray <LSPurchaseModel *>*purchaseArray;

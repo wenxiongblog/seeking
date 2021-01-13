@@ -122,7 +122,6 @@
     }
     //拿到viewedMe 消息
     //拿到 likesMe 消息
-    //两个消息相加
 }
 
 /**
@@ -227,7 +226,6 @@
     }
     return userInfo;
 }
-
 
 - (void)getUserWithTargietID:(NSString *)targetId complete:(void(^)(RCUserInfo *userInfo))complete
 {

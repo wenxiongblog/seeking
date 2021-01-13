@@ -8,7 +8,14 @@
 
 #ifndef Header_h
 #define Header_h
-   
+
+/**
+ //1.每天获得40能量
+ //2.创建会消耗能量
+ //3.启动页
+ //4.恢复内购
+ */
+ 
 /**
  开发者账号
  morgan202028@outlook.com
@@ -58,7 +65,8 @@
     1高中时代朋友：hkkt43
     2理想工作：hkkt44
     3父母相遇城市：hkkt45
-    
+ 
+ 
     pinrocket@outlook.com  密码：App86685
    1.阿里云 OSS存储服务 （徐文 支付宝）
    3.facebook 三方登录(bundle 有关)（徐文 电话号码）

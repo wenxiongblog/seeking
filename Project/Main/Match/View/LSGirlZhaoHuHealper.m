@@ -136,7 +136,6 @@ static LSGirlZhaoHuHealper *__singletion;
 - (void)dazhahu:(NSArray *)customerList index:(NSInteger)index
 {
     SEEKING_Customer *customer = customerList[index];
-    
     kXWWeakSelf(weakself);
     NSLog(@"%@",[[NSDate date]dateString]);
     

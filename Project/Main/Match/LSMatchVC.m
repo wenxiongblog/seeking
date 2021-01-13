@@ -235,12 +235,6 @@
 
 - (void)likeCustomer:(SEEKING_Customer *)customer
 {
-//    LSMatchAlertView *alertView = [[LSMatchAlertView alloc]initWithStyle:XWBaseAlertViewStyleCenter];
-//    alertView.customer = customer;
-//    [[UIApplication sharedApplication].keyWindow addSubview:alertView];
-//    [alertView appearAnimation];
-//    return;
-
     kXWWeakSelf(weakself);
     //喜欢的的前提 是要先登录
     [JumpUtils jumpLoginModelComplete:^(BOOL success) {
@@ -385,8 +379,6 @@
     
     self.countDownIndex = self.countDownIndex + 1;
     self.draggbleIndex = self.draggbleIndex + 1;
-    
-    NSString *str = [NSString stringWithFormat:@"DraggableCard_%ld",self.draggbleIndex];
     
     //这个已经完了才会显示
     if(removeFromLeft){

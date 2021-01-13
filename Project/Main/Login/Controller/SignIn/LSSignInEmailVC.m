@@ -56,7 +56,6 @@
     }
 }
 
-
 #pragma mark - baseConfig1
 - (void)SEEKING_baseUIConfig
 {
@@ -234,7 +233,6 @@
             [AlertView toast:@"Email has been registered" inView:self.view];
             return;
         }
-        
         if(response.isSuccess){
             NSDictionary *dict = response.content;
             //先退出登录，清空缓存

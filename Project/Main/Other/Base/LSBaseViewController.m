@@ -331,7 +331,6 @@
     [self updateUserInfoWithLoading:YES finish:finished];
 }
 
-
 /**
     更新用户位置
  */
@@ -340,13 +339,11 @@
     if(kUser.id == nil || kUser.lng == 0 || kUser.lat == 0){
         return;
     }
-    
     NSDictionary *params = @{
         @"userid":kUser.id,
         @"lng":@(kUser.lng),
         @"lat":@(kUser.lat),
     };
-    
     [self post:kURL_LocationRefresh params:params success:^(Response * _Nonnull response) {
         if(response.isSuccess){
             finished(YES);
@@ -354,7 +351,6 @@
             [AlertView toast:response.message inView:self.view];
             finished(NO);
         }
-        
     } fail:^(NSError * _Nonnull error) {
     }];
 }

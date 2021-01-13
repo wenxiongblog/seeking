@@ -115,7 +115,7 @@ NSString *presentTransitionAnimationModalSink = @"PresentTransitionAnimationModa
 
 
 // 跳转到启动模块
-+ (void)jumpLauncModel
++ (void)jumpWelcomeModel
 {
     UIViewController *vc = [[NSClassFromString(@"LSWelcomeVC") alloc] init];
     [UIApplication sharedApplication].delegate.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
@@ -124,6 +124,19 @@ NSString *presentTransitionAnimationModalSink = @"PresentTransitionAnimationModa
     [[UIApplication sharedApplication].delegate.window makeKeyAndVisible];
 }
 
+// 跳转到马甲包登录页面
++ (void)jumpVestLoginModel
+{
+    UIViewController *vc = [[NSClassFromString(@"VESTSignInVC") alloc] init];
+    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:vc];
+    [[UIApplication sharedApplication].delegate.window setRootViewController:nav];
+     [[UIApplication sharedApplication].delegate.window makeKeyAndVisible];
+}
+// 跳转到马甲包正式界面
++ (void)jumpVestHomeModel
+{
+    
+}
 
 /**
  跳转到主模块

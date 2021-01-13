@@ -69,7 +69,7 @@
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>We will access your photos to upload a cover of you.</string>
 	<key>UILaunchStoryboardName</key>
-	<string>welcome1</string>
+	<string>vest</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>

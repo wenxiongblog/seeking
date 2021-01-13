@@ -324,22 +324,6 @@
     self.userInfo = [LSRongYunHelper getUserInfoCach:targetId];
 }
 
-//- (void)setIsSystemInfo:(BOOL)isSystemInfo
-//{
-//    _isSystemInfo = isSystemInfo;
-//    if(!isSystemInfo){
-//
-//    }else{
-//        //如果是系统消息隐藏底部 输入框
-////        [self.chatSessionInputBarControl mas_makeConstraints:^(MASConstraintMaker *make) {
-////            make.top.equalTo(self.view.mas_bottom);
-////            make.left.right.equalTo(self.view);
-////            make.height.equalTo(@20);
-////        }];
-//        self.chatSessionInputBarControl.alpha = 0;
-//    }
-//}
-
 - (BOOL)haveReceiveMessage
 {
     NSArray <RCMessageModel *>*array = [NSArray arrayWithArray:self.conversationDataRepository];

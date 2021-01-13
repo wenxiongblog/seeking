@@ -28,6 +28,7 @@ static LSLocationManager *__singletion;
     return __singletion;
 }
 
+//开始定位
 + (void)requestAuthorization
 {
     [[LSLocationManager share].locationManager requestWhenInUseAuthorization];
