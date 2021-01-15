@@ -9,6 +9,7 @@
 #import "DYLaunchVC.h"
 #import "VESTTabBarVC.h"
 #import "HPTabBarController.h"
+#import "HttpClient.h"
 
 @interface DYLaunchVC ()
 @property (nonatomic,strong) UIImageView *bgImageView;
@@ -56,6 +57,22 @@
         }
     } fail:^(NSError * _Nonnull error) {
         
+    }];
+    
+    //审核开关
+    [[NSUserDefaults standardUserDefaults]setBool:YES forKey:@"kAppStore_NoHealth"];
+    [[NSUserDefaults standardUserDefaults]setBool:YES forKey:@"kAppStore_NoWeChartLogin"];
+    [HttpClient getwithURL:@"https://deyangshimintong.oss-cn-chengdu.aliyuncs.com/dysmt.json" params:nil cache:NO successBlock:^(id  _Nonnull response) {
+        NSDictionary *dict = response;
+        NSLog(@"%@",dict);
+        NSString *noHealthStr = dict[@"kAppStore_NoHealth"];
+        NSString *noWeChatStr = dict[@"kAppStore_NoWeChartLogin"];
+        BOOL noHealth = [noHealthStr isEqualToString:@"1"];
+        BOOL noWeChat = [noWeChatStr isEqualToString:@"1"];
+        
+        [[NSUserDefaults standardUserDefaults]setBool:noHealth forKey:@"kAppStore_NoHealth"];
+        [[NSUserDefaults standardUserDefaults]setBool:noWeChat forKey:@"kAppStore_NoWeChartLogin"];
+    } failBlock:^(NSError * _Nonnull error) {
     }];
 }
 
